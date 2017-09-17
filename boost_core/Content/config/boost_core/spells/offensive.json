@@ -1,0 +1,110 @@
+{
+	"core:magicArrow" : {
+		"power" : 10,
+		"levels" : {
+			"none" : { "power" : 10 },
+			"basic" : { "power" : 10 },
+			"advanced" : { "power" : 30 },
+			"expert" : { "power" : 50 }
+		}
+	},
+	"core:iceBolt" : {
+		"power" : 16,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:lightningBolt" : {
+		"power" : 20,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:implosion" : {
+		"power" : 60,
+		"levels" : {
+			"none" : { "power" : 50 },
+			"basic" : { "power" : 50 },
+			"advanced" : { "power" : 250 },
+			"expert" : { "power" : 500 }
+		}
+	},
+	"core:chainLightning" : {
+		"power" : 25,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:frostRing" : {
+		"power" : 16,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:fireball" : {
+		"power" : 25,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:inferno" : {
+		"power" : 20,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:meteorShower" : {
+		"power" : 25,
+		"levels" : {
+			"none" : { "power" : 25 },
+			"basic" : { "power" : 25 },
+			"advanced" : { "power" : 125 },
+			"expert" : { "power" : 250 }
+		}
+	},
+	"core:deathRipple" : {
+		"power" : 10,
+		"levels" : {
+			"none" : { "power" : 10 },
+			"basic" : { "power" : 10 },
+			"advanced" : { "power" : 50 },
+			"expert" : { "power" : 100 }
+		}
+	},
+	"core:destroyUndead" : {
+		"power" : 15,
+		"levels" : {
+			"none" : { "power" : 15 },
+			"basic" : { "power" : 15 },
+			"advanced" : { "power" : 75 },
+			"expert" : { "power" : 150 }
+		}
+	},
+	"core:armageddon" : {
+		"power" : 30,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 100 },
+			"expert" : { "power" : 200 }
+		}
+	}
+}
