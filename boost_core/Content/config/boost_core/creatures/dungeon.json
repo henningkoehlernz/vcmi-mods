@@ -1,0 +1,72 @@
+{
+	"core:troglodyte" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 17 }
+	},
+	"core:infernalTroglodyte" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 20 }
+	},
+	"core:harpy" :
+	{
+		"growth" : 14,
+		"cost" : { "gold" : 55 }
+	},
+	"core:harpyHag" :
+	{
+		"growth" : 14,
+		"cost" : { "gold" : 85 }
+	},
+	"core:beholder" :
+	{
+		"growth" : 10,
+		"cost" : { "gold" : 115 }
+	},
+	"core:evilEye" :
+	{
+		"growth" : 10,
+		"cost" : { "gold" : 130 }
+	},
+	"core:medusa" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 190 }
+	},
+	"core:medusaQueen" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 230 }
+	},
+	"core:minotaur" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 370 }
+	},
+	"core:minotaurKing" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 450 }
+	},
+	"core:manticore" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 650 }
+	},
+	"core:scorpicore" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 850 }
+	},
+	"core:redDragon" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 2500, "sulfur": 1 }
+	},
+	"core:blackDragon" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 4000, "sulfur": 2 }
+	}
+}

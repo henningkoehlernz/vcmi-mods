@@ -1,0 +1,74 @@
+{
+	"core:gnoll" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 21 }
+	},
+	"core:gnollMarauder" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 24 }
+	},
+	"core:lizardman" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 50 }
+	},
+	"core:lizardWarrior" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 70 }
+	},
+	"core:gorgon" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 375 }
+	},
+	"core:mightyGorgon" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 500 }
+	},
+	"core:serpentFly" :
+	{
+		"growth" : 11,
+		"cost" : { "gold" : 105 }
+	},
+	"core:fireDragonFly" :
+	{
+		"growth" : 11,
+		"cost" : { "gold" : 130 }
+	},
+	"core:basilisk" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 200 }
+	},
+	"core:greaterBasilisk" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 250 }
+	},
+	"core:wyvern" :
+	{
+		"growth" : 3,
+		"cost" : { "gold" : 550 }
+	},
+	"core:wyvernMonarch" :
+	{
+		"growth" : 3,
+		"cost" : { "gold" : 800 }
+	},
+	"core:hydra" :
+	{
+		"abilities": { "regenerates" : { "type" : "FULL_HP_REGENERATION" } },
+		"growth" : 1,
+		"cost" : { "gold" : 2500 }
+	},
+	"core:chaosHydra" :
+	{
+		"abilities": { "regenerates" : { "type" : "FULL_HP_REGENERATION" } },
+		"growth" : 1,
+		"cost" : { "gold" : 3500, "sulfur": 1 }
+	}
+}

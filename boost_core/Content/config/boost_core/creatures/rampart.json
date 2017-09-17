@@ -1,0 +1,72 @@
+{
+	"core:centaur" :
+	{
+		"growth" : 25,
+		"cost" : { "gold" : 30 }
+	},
+	"core:centaurCaptain" :
+	{
+		"growth" : 25,
+		"cost" : { "gold" : 38 }
+	},
+	"core:dwarf" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 50 }
+	},
+	"core:battleDwarf" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 70 }
+	},
+	"core:woodElf" :
+	{
+		"growth" : 13,
+		"cost" : { "gold" : 85 }
+	},
+	"core:grandElf" :
+	{
+		"growth" : 13,
+		"cost" : { "gold" : 110 }
+	},
+	"core:pegasus" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 190 }
+	},
+	"core:silverPegasus" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 230 }
+	},
+	"core:dendroidGuard" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 240 }
+	},
+	"core:dendroidSoldier" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 300 }
+	},
+	"core:unicorn" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 800 }
+	},
+	"core:warUnicorn" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1000 }
+	},
+	"core:greenDragon" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 2000, "crystal" : 1 }
+	},
+	"core:goldDragon" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 3500, "crystal" : 2 }
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"core:goldGolem" :
+	{
+		"cost" : { "gold" : 250 }
+	},
+	"core:diamondGolem" :
+	{
+		"cost" : { "gold" : 350 }
+	},
+	"core:enchanter" :
+	{
+		"cost" : { "gold" : 600 }
+	},
+	"core:sharpshooter" :
+	{
+		"cost" : { "gold" : 200 }
+	},
+	"core:halfling" :
+	{
+		"cost" : { "gold" : 20 }
+	},
+	"core:peasant" :
+	{
+		"cost" : { "gold" : 4 }
+	},
+	"core:boar" :
+	{
+		"cost" : { "gold" : 45 }
+	},
+	"core:mummy" :
+	{
+		"cost" : { "gold" : 100 }
+	},
+	"core:nomad" :
+	{
+		"cost" : { "gold" : 115 }
+	},
+	"core:rogue" :
+	{
+		"cost" : { "gold" : 35 }
+	},
+	"core:troll" :
+	{
+		"cost" : { "gold" : 300 }
+	}
+}

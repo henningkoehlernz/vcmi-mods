@@ -1,0 +1,89 @@
+{
+	"core:skeleton" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 19 }
+	},
+	"core:skeletonWarrior" :
+	{
+		"growth" : 40,
+		"cost" : { "gold" : 22 }
+	},
+	"core:walkingDead" :
+	{
+		"growth" : 25,
+		"cost" : { "gold" : 35 }
+	},
+	"core:zombieLord" :
+	{
+		"growth" : 25,
+		"cost" : { "gold" : 45 }
+	},
+	"core:wight" :
+	{
+		"growth" : 15,
+		"cost" : { "gold" : 80 }
+	},
+	"core:wraith" :
+	{
+		"growth" : 15,
+		"cost" : { "gold" : 95 }
+	},
+	"core:vampire" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 200 }
+	},
+	"core:vampireLord" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 400 }
+	},
+	"core:lich" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 300 }
+	},
+	"core:powerLich" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 400 }
+	},
+	"core:blackKnight" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1000 }
+	},
+	"core:dreadKnight" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1200 }
+	},
+	"core:boneDragon" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 1800 }
+	},
+	"core:ghostDragon" :
+	{
+		"abilities":
+		{
+			"incorporeal_melee" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 0,
+				"val" : 25,
+				"valueType" : "BASE_NUMBER",
+				"duration" : "PERMANENT"
+			},
+			"incorporeal_ranged" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : 1,
+				"val" : 25,
+				"valueType" : "BASE_NUMBER",
+				"duration" : "PERMANENT"
+			},
+		},
+		"growth" : 1,
+		"cost" : { "gold" : 3000, "mercury" : 1 }
+	}
+}

@@ -1,0 +1,584 @@
+{
+	"core:pathfinding" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Pathfinding}\n\nReduces the movement penalty for rough terrain by 25%.",
+			"effects" : {
+				"xtra" : null
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Pathfinding}\n\nReduces the movement penalty for rough terrain by 50%, and increases land movement by 5%.",
+			"effects" : {
+				"xtra" : { "val" : 5 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Pathfinding}\n\nReduces the movement penalty for rough terrain by 75%, and increases land movement by 10%.",
+			"effects" : {
+				"xtra" : { "val" : 10 }
+			}
+		}
+	},
+	"core:archery" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "ammoCart" ]
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Archery}\n\nIncreases the damage done by range attacking creatures by 20%, and improves ammo cart durability.",
+			"effects" : {
+				"main" : { "val" : 20 },
+				"xtra" : { "val" : 100 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Archery}\n\nIncreases the damage done by range attacking creatures by 40%, and improves ammo cart durability.",
+			"effects" : {
+				"main" : { "val" : 40 },
+				"xtra" : { "val" : 200 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Archery}\n\nIncreases the damage done by range attacking creatures by 60%, and improves ammo cart durability.",
+			"effects" : {
+				"main" : { "val" : 60 },
+				"xtra" : { "val" : 300 }
+			}
+		}
+	},
+	"core:logistics" : {
+		"basic" : {
+			"description" : "{Basic Logistics} Increases your hero's movement points over land by 5%.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Logistics} Increases your hero's movement points over land by 15%.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Logistics} Increases your hero's movement points over land by 25%.",
+			"effects" : {
+				"main" : { "val" : 25 }
+			}
+		}
+	},
+	"core:scouting" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Scouting}\n\nAllows your hero to see 1 square further into the shroud, and increases land movement by 5%.",
+			"effects" : {
+				"xtra" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scouting}\n\nAllows your hero to see 2 squares further into the shroud, and increases land movement by 10%.",
+			"effects" : {
+				"xtra" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scouting}\n\nAllows your hero to see 3 squares further into the shroud, and increases land movement by 15%.",
+			"effects" : {
+				"xtra" : { "val" : 15 }
+			}
+		}
+	},
+	"core:navigation" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "skill.navigation",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "BASE_NUMBER"
+				},
+				"xtra" : {
+					"type" : "FREE_SHIP_BOARDING"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Navigation}\n\nIncreases your hero's movement points at sea by 25%, and allows them to board ships without losing all movement.",
+			"effects" : {
+				"main" : { "val" : 25 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Navigation}\n\nIncreases your hero's movement points at sea by 75%.",
+			"effects" : {
+				"main" : { "val" : 75 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Navigation}\n\nIncreases your hero's movement points at sea by 150%.",
+			"effects" : {
+				"main" : { "val" : 150 }
+			}
+		}
+	},
+	"core:leadership" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "MORALE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"xtra" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Leadership}\n\nIncreases morale and attack by 1.",
+			"effects" : {
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Leadership}\n\nIncreases morale and attack by 2.",
+			"effects" : {
+				"xtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Leadership}\n\nIncreases morale and attack by 3.",
+			"effects" : {
+				"xtra" : { "val" : 3 }
+			}
+		}
+	},
+	"core:mysticism" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : "skill.intelligence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Mysticism}\n\nAllows your hero to regenerate an additional spell point per day, and increases maximum mana by 10%.",
+			"effects" : {
+				"xtra" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advances Mysticism}\n\nAllows your hero to regenerate an additional 2 spell points per day, and increases maximum mana by 25%.",
+			"effects" : {
+				"xtra" : { "val" : 25 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mysticism}\n\nAllows your hero to regenerate an additional 3 spell points per day, and increases maximum mana by 40%.",
+			"effects" : {
+				"xtra" : { "val" : 40 }
+			}
+		}
+	},
+	"core:luck" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Luck}\n\nIncreases luck and defense by 1.",
+			"effects" : {
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Luck}\n\nIncreases luck and defense by 2.",
+			"effects" : {
+				"xtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Luck}\n\nIncreases luck and defense by 3.",
+			"effects" : {
+				"xtra" : { "val" : 3 }
+			}
+		}
+	},
+	"core:ballistics" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : 1,
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Ballistics}\n\nGives control of the catapult to the hero, allowing aimed shots with increased damage.",
+			"effects" : {
+				"xtra" : null
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage and reduced damage taken from ranged attacks by 10%.",
+			"effects" : {
+				"xtra" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage and reduced damage taken from ranged attacks by 25%.",
+			"effects" : {
+				"xtra" : { "val" : 25 }
+			}
+		}
+	},
+	"core:eagleEye" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "SIGHT_RADIOUS",
+					"valueType" : "BASE_NUMBER"
+				},
+				"val2" : {
+					"subtype" : "skill.archery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Eagle Eye}\n\nAllows your hero to see 1 square further into the shroud, and increases ranged damage by 10%.",
+			"effects" : {
+				"main" : { "val" : 1 },
+				"val2" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Eagle Eye}\n\nAllows your hero to see 2 squares further into the shroud, and increases ranged damage by 25%.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"val2" : { "val" : 25 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Eagle Eye}\n\nAllows your hero to see 3 squares further into the shroud, and increases ranged damage by 40%.",
+			"effects" : {
+				"main" : { "val" : 3 },
+				"val2" : { "val" : 40 }
+			}
+		}
+	},
+	"core:necromancy" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "skeleton", true ]
+						}
+					]
+
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Necromancy}\n\nReanimates 10% of enemy creatures killed, and increases the speed of skeletons by 1.",
+			"effects" : {
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Necromancy}\n\nReanimates 20% of enemy creatures killed, and increases the speed of skeletons by 2.",
+			"effects" : {
+				"xtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Necromancy}\n\nReanimates 30% of enemy creatures killed, and increases the speed of skeletons by 3.",
+			"effects" : {
+				"xtra" : { "val" : 3 }
+			}
+		}
+	},
+	"core:scholar" : {
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "skill.learning",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"xtra" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Scholar}\n\nIncreases all XP gained by 10%, and knowledge by 1.",
+			"effects" : {
+				"main" : { "val" : 10 },
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scholar}\n\nIncreases all XP gained by 25%, and knowledge by 2.",
+			"effects" : {
+				"main" : { "val" : 25 },
+				"xtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scholar}\n\nIncreases all XP gained by 50%, and knowledge by 3.",
+			"effects" : {
+				"main" : { "val" : 50 },
+				"xtra" : { "val" : 3 }
+			}
+		}
+	},
+	"core:tactics" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"xtra" : null
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Tactics}\n\nAllows you to rearrange troups within 5 hex rows, and increases their speed by 1.",
+			"effects" : {
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Tactics}\n\nAllows you to rearrange troups within 7 hex rows, and increases their speed by 2.",
+			"effects" : {
+				"xtra" : { "val" : 2 }
+			}
+		}
+	},
+	"core:artillery" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "ballista" ]
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Artillery}\n\nGives control of the ballista to the hero, a 50% chance to inflict double damage and improves ballista durability.",
+			"effects" : {
+				"xtra" : { "val" : 100 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Artillery}\n\nAllows two shot with a 75% chance to inflict double damage, and improves ballista durability.",
+			"effects" : {
+				"xtra" : { "val" : 200 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Artillery}\n\nAllows three shot with a 100% chance to inflict double damage, and improves ballista durability.",
+			"effects" : {
+				"val2" : { "val" : 2 },
+				"xtra" : { "val" : 300 }
+			}
+		}
+	},
+	"core:learning" : {
+		"basic" : {
+			"description" : "{Basic Learning}\n\nIncreases a hero's earned experience by 25%.",
+			"effects" : {
+				"main" : { "val" : 25 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Learning}\n\nIncreases a hero's earned experience by 50%.",
+			"effects" : {
+				"main" : { "val" : 50 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Learning}\n\nIncreases a hero's earned experience by 100%.",
+			"effects" : {
+				"main" : { "val" : 100 }
+			}
+		}
+	},
+	"core:armorer" : {
+		"basic" : {
+			"description" : "{Basic Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 5%.",
+		},
+		"advanced" : {
+			"description" : "{Advanced Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 10%.",
+		},
+		"expert" : {
+			"description" : "{Expert Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		}
+	},
+	"core:intelligence" : {
+		"basic" : {
+			"description" : "{Basic Intelligence}\n\nIncreases a hero's normal maximum spell points by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Basic Intelligence}\n\nIncreases a hero's normal maximum spell points by 40%.",
+			"effects" : {
+				"main" : { "val" : 40 }
+			}
+		},
+		"expert" : {
+			"description" : "{Basic Intelligence}\n\nIncreases a hero's normal maximum spell points by 60%.",
+			"effects" : {
+				"main" : { "val" : 60 }
+			}
+		}
+	},
+	"core:sorcery" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Sorcery}\n\nIncreases all spell damage by 10%, and power by 1.",
+			"effects" : {
+				"main" : { "val" : 10 },
+				"xtra" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Sorcery}\n\nIncreases all spell damage by 20%, and power by 2.",
+			"effects" : {
+				"main" : { "val" : 20 },
+				"xtra" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Sorcery}\n\nIncreases all spell damage by 30%, and power by 3.",
+			"effects" : {
+				"main" : { "val" : 30 },
+				"xtra" : { "val" : 3 }
+			}
+		}
+	},
+	"core:resistance" : {
+		"basic" : {
+			"description" : "{Basic Resistance}\n\nEndows a hero's troops with 10% magic resistance.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Resistance}\n\nEndows a hero's troops with 25% magic resistance.",
+			"effects" : {
+				"main" : { "val" : 25 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Resistance}\n\nEndows a hero's troops with 40% magic resistance.",
+			"effects" : {
+				"main" : { "val" : 40 }
+			}
+		}
+	},
+	"core:firstAid" : {
+		"base" : {
+			"effects" : {
+				"dura" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 300,
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "firstAidTent" ]
+						}
+					]
+				},
+				"xtra" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic First Aid}\n\nGrants manual control of the first aid, increases healing to 50 points, and increases tent durability.",
+			"effects" : {
+				"xtra" : null
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced First Aid}\n\nFirst aid tent heals 75 points, and troops have 10% more health.",
+			"effects" : {
+				"xtra" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert First Aid}\n\nFirst aid tent heals 100 points, and troops have 20% more health.",
+			"effects" : {
+				"xtra" : { "val" : 20 }
+			}
+		}
+	}
+}

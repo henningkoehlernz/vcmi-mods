@@ -1,0 +1,72 @@
+{
+	"core:gremlin" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 13 }
+	},
+	"core:masterGremlin" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 19 }
+	},
+	"core:stoneGargoyle" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 55 }
+	},
+	"core:obsidianGargoyle" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 70 }
+	},
+	"core:ironGolem" :
+	{
+		"growth" : 10,
+		"cost" : { "gold" : 90 }
+	},
+	"core:stoneGolem" :
+	{
+		"growth" : 10,
+		"cost" : { "gold" : 135 }
+	},
+	"core:mage" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 200 }
+	},
+	"core:archMage" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 265 }
+	},
+	"core:genie" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 350 }
+	},
+	"core:masterGenie" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 450 }
+	},
+	"core:naga" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 850 }
+	},
+	"core:nagaQueen" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1200 }
+	},
+	"core:giant" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 1500, "gems" : 1 }
+	},
+	"core:titan" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 4000, "gems" : 2 }
+	}
+}

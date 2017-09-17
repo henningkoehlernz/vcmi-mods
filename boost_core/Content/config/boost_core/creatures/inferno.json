@@ -1,0 +1,72 @@
+{
+	"core:imp" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 14 }
+	},
+	"core:familiar" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 18 }
+	},
+	"core:gog" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 50 }
+	},
+	"core:magog" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 60 }
+	},
+	"core:hellHound" :
+	{
+		"growth" : 9,
+		"cost" : { "gold" : 110 }
+	},
+	"core:cerberus" :
+	{
+		"growth" : 9,
+		"cost" : { "gold" : 165 }
+	},
+	"core:demon" :
+	{
+		"growth" : 8,
+		"cost" : { "gold" : 165 }
+	},
+	"core:hornedDemon" :
+	{
+		"growth" : 8,
+		"cost" : { "gold" : 190 }
+	},
+	"core:pitFiend" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 320 }
+	},
+	"core:pitLord" :
+	{
+		"growth" : 5,
+		"cost" : { "gold" : 360 }
+	},
+	"core:efreet" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 850 }
+	},
+	"core:efreetSultan" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1150 }
+	},
+	"core:devil" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 2700, "mercury": 1 }
+	},
+	"core:archDevil" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 3500, "mercury": 2 }
+	}
+}

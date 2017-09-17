@@ -1,0 +1,72 @@
+{
+	"core:pikeman" :
+	{
+		"growth" : 30,
+		"cost" : { "gold" : 25 }
+	},
+	"core:halberdier" :
+	{
+		"growth" : 30,
+		"cost" : { "gold" : 30 }
+	},
+	"core:archer" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 40 }
+	},
+	"core:marksman" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 55 }
+	},
+	"core:griffin" :
+	{
+		"growth" : 9,
+		"cost" : { "gold" : 120 }
+	},
+	"core:royalGriffin" :
+	{
+		"growth" : 9,
+		"cost" : { "gold" : 150 }
+	},
+	"core:swordsman" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 165 }
+	},
+	"core:crusader" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 240 }
+	},
+	"core:monk" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 230 }
+	},
+	"core:zealot" :
+	{
+		"growth" : 6,
+		"cost" : { "gold" : 300 }
+	},
+	"core:cavalier" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 800 }
+	},
+	"core:champion" :
+	{
+		"growth" : 2,
+		"cost" : { "gold" : 1000 }
+	},
+	"core:angel" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 2500, "gems" : 1 }
+	},
+	"core:archangel" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 5000, "gems" : 3 }
+	}
+}

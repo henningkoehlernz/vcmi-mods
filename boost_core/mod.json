@@ -1,0 +1,40 @@
+{
+	"name" : "Boost Core",
+	"description" : "Rebalancing of core skills/heroes/spells/creatures. Low level creatures cost less and grow faster.",
+	"version" : "1.0",
+	"author" : "Henning Koehler",
+	"contact" : "henning.koehler.nz@gmail.com",
+	"modType" : "balance",
+
+	"skills" : [
+		"config/boost_core/skills.json"
+	],
+	"heroes" : [
+		"config/boost_core/heroes/castle.json",
+		"config/boost_core/heroes/conflux.json",
+		"config/boost_core/heroes/dungeon.json",
+		"config/boost_core/heroes/fortress.json",
+		"config/boost_core/heroes/inferno.json",
+		"config/boost_core/heroes/necropolis.json",
+		"config/boost_core/heroes/rampart.json",
+		"config/boost_core/heroes/special.json",
+		"config/boost_core/heroes/stronghold.json",
+		"config/boost_core/heroes/tower.json"
+	],
+	"spells" : [
+		"config/boost_core/spells/offensive.json",
+		"config/boost_core/spells/other.json"
+	],
+	"creatures" : [
+		"config/boost_core/creatures/castle.json",
+		"config/boost_core/creatures/conflux.json",
+		"config/boost_core/creatures/dungeon.json",
+		"config/boost_core/creatures/fortress.json",
+		"config/boost_core/creatures/inferno.json",
+		"config/boost_core/creatures/necropolis.json",
+		"config/boost_core/creatures/neutral.json",
+		"config/boost_core/creatures/rampart.json",
+		"config/boost_core/creatures/stronghold.json",
+		"config/boost_core/creatures/tower.json"
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"core:goblin" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 16 }
+	},
+	"core:hobgoblin" :
+	{
+		"growth" : 50,
+		"cost" : { "gold" : 19 }
+	},
+	"core:goblinWolfRider" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 40 }
+	},
+	"core:hobgoblinWolfRider" :
+	{
+		"growth" : 20,
+		"cost" : { "gold" : 60 }
+	},
+	"core:orc" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 65 }
+	},
+	"core:orcChieftain" :
+	{
+		"growth" : 17,
+		"cost" : { "gold" : 80 }
+	},
+	"core:ogre" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 170 }
+	},
+	"core:ogreMage" :
+	{
+		"growth" : 7,
+		"cost" : { "gold" : 250 }
+	},
+	"core:roc" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 420 }
+	},
+	"core:thunderbird" :
+	{
+		"growth" : 4,
+		"cost" : { "gold" : 540 }
+	},
+	"core:cyclop" :
+	{
+		"growth" : 3,
+		"cost" : { "gold" : 675 }
+	},
+	"core:cyclopKing" :
+	{
+		"growth" : 3,
+		"cost" : { "gold" : 800 }
+	},
+	"core:behemoth" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 1500 }
+	},
+	"core:ancientBehemoth" :
+	{
+		"growth" : 1,
+		"cost" : { "gold" : 3000, "crystal": 1 }
+	}
+}
