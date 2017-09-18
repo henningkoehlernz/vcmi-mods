@@ -1,0 +1,329 @@
+{
+	"core:lorelei":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Harpies and Harpy Hags gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:arlach":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"subtype" : "skill.artillery",
+					"type" : "SECONDARY_SKILL_VAL2",
+					"val" : 1,
+					"limiters" : []
+				}
+			}
+		}
+	},
+	"core:dace":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Minotaurs and Minotaur Kings gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:ajit":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Beholders and Evil Eyes gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:damacon":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's income by 300 gold per day, plus 50 gold for each level gained."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 300
+				},
+				"more" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"updater" : {
+						"parameters" : [ 1000 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gunnar":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases movement speed over land by 1% per level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : {
+						"parameters" : [ 20 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:synca":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Manticores and Scorpicores gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:shakti":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Troglodytes and Infernal Troglodytes gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:alamar":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts resurrection with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:jaegar":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Recovers additional spell points per day equal to his level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"subtype" : "skill.mysticism",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : {
+						"parameters" : [ 20 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:malekith":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to sorcery skill percentage, and starts with +2 power."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
+			}
+		}
+	},
+	"core:jeddite":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts resurrection with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:geon":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.archery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : { "parameters" : [ 40 ] },
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"eagleEye2" : {
+					"type" : "SIGHT_RADIOUS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:deemer":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts meteor shower with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:sephinroth":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's crystal production by 1 per day for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:darkstorn":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts stone skin with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	}
+}
