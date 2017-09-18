@@ -1,0 +1,264 @@
+{
+	"core:ufretin":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Dwarfs and Battle Dwarfs gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:jenova":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's income by 300 gold per day, plus 50 gold for each level gained."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : { "val" : 300 },
+				"more" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"updater" : {
+						"parameters" : [ 1000 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:ryland":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Dendroid Guards and Dendroid Soldiers gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:ivor":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Wood Elves and Grand Elves gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:clancy":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Unicorns and War Unicorns gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:kyrre":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases movement speed over land by 1% per level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "skill.logistics",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : {
+						"parameters" : [ 20 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:coronius":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts slayer with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:uland":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts cure with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gem":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the health of all troops by 1% per level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"type" : "STACK_HEALTH",
+					"subtype" : null,
+					"updater" : { "parameters" : [ 20 ] },
+				}
+			}
+		}
+	},
+	"core:malcom":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.archery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : { "parameters" : [ 40 ] },
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"eagleEye2" : {
+					"type" : "SIGHT_RADIOUS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:melodia":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts fortune with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:alagar":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts ice bolt with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:aeris":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Pegasi and Silver Pegasi gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	}
+}
