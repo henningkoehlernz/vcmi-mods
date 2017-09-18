@@ -1,0 +1,162 @@
+{
+	"core:adrienne":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Starts with expert fire magic, and fire spells deal 2% more damage per level of the hero."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"fire" : {
+					"type" : "FIRE_SPELL_DMG_PREMY",
+					"updater" : {
+						"parameters" : [ 40 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+				}
+			}
+		}
+	},
+	"core:catherine":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Griffins and Royal Griffins gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:dracon":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Can upgrade monks or zealots and magi or arch magi to enchanters. Enchanters gain +10 health."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"limiters" : [
+						{
+							"parameters" : [ "enchanter" ],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"type" : "STACK_HEALTH",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:gelu":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters. Sharpshooters gain +5 health."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"limiters" : [
+						{
+							"parameters" : [ "sharpshooter" ],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
+					],
+					"type" : "STACK_HEALTH",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:undeadHaart":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Black Knights and Dread Knights gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"damage" : {
+					"type" : "STACKS_SPEED",
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:roland":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Griffins and Royal Griffins gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:boragus":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Ogres and Ogre Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	}
+}
