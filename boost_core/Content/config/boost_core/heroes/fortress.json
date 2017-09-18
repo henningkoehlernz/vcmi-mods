@@ -1,0 +1,255 @@
+{
+	"core:bron":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Basilisks and Greater Basilisks gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:drakon":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Gnolls and Gnoll Marauders gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:wystan":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Lizardmen and Lizard Warriors gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:alkin":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Gorgons and Mighty Gorgons gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:korbac":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Serpent Flys and Dragon Flys gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gerwulf":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"subtype" : "skill.artillery",
+					"type" : "SECONDARY_SKILL_VAL2",
+					"val" : 1,
+					"limiters" : []
+				}
+			}
+		}
+	},
+	"core:broghild":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Wyverns and Wyvern Monarchs gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:mirlanda":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts weakness with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:rosic":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Recovers additional spell points each day equal to her level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"updater" : { "parameters" : [ 20 ] },
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:verdish":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the health of all troops by 1% per level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"type" : "STACK_HEALTH",
+					"subtype" : null,
+					"updater" : { "parameters" : [ 20 ] },
+				}
+			}
+		}
+	},
+	"core:merist":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts stone skin with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:styg":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to sorcery skill percentage, and starts with +2 power."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
+			}
+		}
+	},
+	"core:tiva":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.archery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : { "parameters" : [ 40 ] },
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"eagleEye2" : {
+					"type" : "SIGHT_RADIOUS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}

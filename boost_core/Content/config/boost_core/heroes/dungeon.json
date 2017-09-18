@@ -189,18 +189,13 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Recovers additional spell points per day equal to his level."
+				"description" : "Recovers additional spell points each day equal to his level."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
-					"subtype" : "skill.mysticism",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : {
-						"parameters" : [ 20 ],
-						"type" : "GROWS_WITH_LEVEL"
-					},
+					"updater" : { "parameters" : [ 20 ] },
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
