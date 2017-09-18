@@ -10,29 +10,16 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Pathfinding}\n\nReduces the movement penalty for rough terrain by 25%."
+			"description" : "{Basic Pathfinding}\n\nReduces the movement penalty for rough terrain by 25%, and increases land movement by 5%.",
+			"effects" : { "xtra" : { "val" : 5 } }
 		},
 		"advanced" : {
-			"description" : "{Advanced Pathfinding}\n\nReduces the movement penalty for rough terrain by 50%, and increases land movement by 5%.",
-			"effects" : {
-				"xtra" : {
-					"subtype" : "skill.logistics",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"val" : 5,
-					"valueType" : "ADDITIVE_VALUE"
-				}
-			}
+			"description" : "{Advanced Pathfinding}\n\nReduces the movement penalty for rough terrain by 50%, and increases land movement by 10%.",
+			"effects" : { "xtra" : { "val" : 10 } }
 		},
 		"expert" : {
-			"description" : "{Expert Pathfinding}\n\nReduces the movement penalty for rough terrain by 75%, and increases land movement by 10%.",
-			"effects" : {
-				"xtra" : {
-					"subtype" : "skill.logistics",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"val" : 10,
-					"valueType" : "ADDITIVE_VALUE"
-				}
-			}
+			"description" : "{Expert Pathfinding}\n\nReduces the movement penalty for rough terrain by 75%, and increases land movement by 15%.",
+			"effects" : { "xtra" : { "val" : 15 } }
 		}
 	},
 	"core:archery" : {
@@ -69,26 +56,6 @@
 			"effects" : {
 				"main" : { "val" : 60 },
 				"xtra" : { "val" : 300 }
-			}
-		}
-	},
-	"core:logistics" : {
-		"basic" : {
-			"description" : "{Basic Logistics} Increases your hero's movement points over land by 5%.",
-			"effects" : {
-				"main" : { "val" : 5 }
-			}
-		},
-		"advanced" : {
-			"description" : "{Advanced Logistics} Increases your hero's movement points over land by 15%.",
-			"effects" : {
-				"main" : { "val" : 15 }
-			}
-		},
-		"expert" : {
-			"description" : "{Expert Logistics} Increases your hero's movement points over land by 25%.",
-			"effects" : {
-				"main" : { "val" : 25 }
 			}
 		}
 	},
@@ -288,16 +255,16 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Eagle Eye}\n\nAllows your hero to see 2 squares further into the shroud, and increases ranged damage by 25%.",
+			"description" : "{Advanced Eagle Eye}\n\nAllows your hero to see 2 squares further into the shroud, and increases ranged damage by 20%.",
 			"effects" : {
 				"main" : { "val" : 2 },
-				"val2" : { "val" : 25 }
+				"val2" : { "val" : 20 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Eagle Eye}\n\nAllows your hero to see 3 squares further into the shroud, and increases ranged damage by 40%.",
+			"description" : "{Expert Eagle Eye}\n\nAllows your hero to see 2 squares further into the shroud, and increases ranged damage by 40%.",
 			"effects" : {
-				"main" : { "val" : 3 },
+				"main" : { "val" : 2 },
 				"val2" : { "val" : 40 }
 			}
 		}

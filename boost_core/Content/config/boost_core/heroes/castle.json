@@ -200,7 +200,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases ranged damage by 2% per level, and sight radius by 2."
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
 			}
 		},
 		"specialty" : {
@@ -213,7 +213,7 @@
 				},
 				"eagleEye2" : {
 					"type" : "SIGHT_RADIOUS",
-					"val" : 2,
+					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				}
 			}
