@@ -21,35 +21,20 @@
 	},
 	"core:gurnisson":
 	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
+			}
+		},
 		"specialty" : {
-			"base" : {
-				"limiters" : [
-					{
-						"parameters" : [ "ballista", true ],
-						"type" : "CREATURE_TYPE_LIMITER"
-					}
-				]
-			},
 			"bonuses" : {
-				"attack" : {
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 10, 5 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"defence" : {
-					"subtype" : "primSkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 10, 5 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
 				"speed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 1
+					"subtype" : "skill.artillery",
+					"type" : "SECONDARY_SKILL_VAL2",
+					"val" : 1,
+					"limiters" : []
 				}
 			}
 		}

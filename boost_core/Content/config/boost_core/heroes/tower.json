@@ -1,0 +1,297 @@
+{
+	"core:piquedram":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Stone Gargoyles and Obsidian Gargoyles gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:thane":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Genies and Master Genies gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:josephine":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Stone Golems and Iron Golems gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:torosar ":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"subtype" : "skill.artillery",
+					"type" : "SECONDARY_SKILL_VAL2",
+					"val" : 1,
+					"limiters" : []
+				}
+			}
+		}
+	},
+	"core:fafner":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Nagas and Naga Queens gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:rissa":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's mercury production by 1 per day for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"mercury" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:iona":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Genies and Master Genies gain +4 attack, +6 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 8 ] } },
+				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:astral":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts hypnotize with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:halon":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Recovers additional spell points each day equal to his level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:serena":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.archery",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"eagleEye2" : {
+					"type" : "SIGHT_RADIOUS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:daremyth":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts fortune with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:theodorus":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Mages and Arch Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:solmyr":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts chain lightning with increased effect, and gains +1 power every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:cyra":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts haste with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:aine":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's income by 300 gold per day, plus 50 gold for each level gained."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : { "val" : 300 },
+				"more" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50
+				}
+			}
+		}
+	}
+}
