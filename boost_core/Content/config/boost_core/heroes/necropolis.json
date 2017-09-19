@@ -112,10 +112,8 @@
 				"more" : {
 					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
-					"updater" : {
-						"parameters" : [ 1000 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50
 				}
 			}
 		}
@@ -208,8 +206,7 @@
 			"bonuses" : {
 				"eagleEye" : {
 					"subtype" : "skill.archery",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : { "parameters" : [ 40 ] },
+					"val" : 2,
 					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {
@@ -273,10 +270,8 @@
 				"more" : {
 					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
-					"updater" : {
-						"parameters" : [ 1000 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50
 				}
 			}
 		}

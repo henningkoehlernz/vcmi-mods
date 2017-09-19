@@ -92,10 +92,8 @@
 				"more" : {
 					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
-					"updater" : {
-						"parameters" : [ 1000 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50
 				}
 			}
 		}
@@ -110,12 +108,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"logistics" : {
-					"subtype" : "skill.logistics",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : {
-						"parameters" : [ 20 ],
-						"type" : "GROWS_WITH_LEVEL"
-					},
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
@@ -191,7 +184,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
-					"updater" : { "parameters" : [ 20 ] },
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
@@ -245,8 +238,7 @@
 			"bonuses" : {
 				"eagleEye" : {
 					"subtype" : "skill.archery",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : { "parameters" : [ 40 ] },
+					"val" : 2,
 					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {

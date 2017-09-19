@@ -92,10 +92,8 @@
 				"more" : {
 					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
-					"updater" : {
-						"parameters" : [ 1000 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50
 				}
 			}
 		}
@@ -190,7 +188,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
-					"updater" : { "parameters" : [ 20 ] },
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}

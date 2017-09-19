@@ -169,7 +169,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
-					"updater" : { "parameters" : [ 20 ] },
+					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
@@ -187,7 +187,7 @@
 				"firstAid" : {
 					"type" : "STACK_HEALTH",
 					"subtype" : null,
-					"updater" : { "parameters" : [ 20 ] },
+					"val" : 1
 				}
 			}
 		}
@@ -240,8 +240,7 @@
 			"bonuses" : {
 				"eagleEye" : {
 					"subtype" : "skill.archery",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : { "parameters" : [ 40 ] },
+					"val" : 2,
 					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {
