@@ -1,0 +1,307 @@
+{
+	"core:yog":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Cyclopses and Cyclops Kings gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gurnisson":
+	{
+		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ballista", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
+			"bonuses" : {
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 10, 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 10, 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
+		}
+	},
+	"core:jabarkas":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Orcs and Orc Chieftains gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:shiva":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Rocs and Thunderbirds gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gretchin":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Goblins and Hobgoblins gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:krellion":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Ogres and Ogre Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:tyraxor":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Wolf Riders and Wold Raiders gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gird":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to sorcery skill percentage, and starts with +2 power."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
+			}
+		}
+	},
+	"core:vey":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Ogres and Ogre Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"attack" : { "updater" : { "parameters" : [ 12 ] } },
+				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"speed" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:dessa":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases movement speed over land by 1% per level."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE"
+				}
+			}
+		}
+	},
+	"core:terek":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts haste with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:zubin":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts precision with increased effect, and gains +1 knowledge every 4 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 5 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	},
+	"core:gundula":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to sorcery skill percentage, and starts with +2 power."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : 2
+				}
+			}
+		}
+	},
+	"core:oris":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases ranged damage by 2% per level, and sight radius by 1."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"eagleEye" : {
+					"subtype" : "skill.archery",
+					"val" : 2,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"eagleEye2" : {
+					"type" : "SIGHT_RADIOUS",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
+	"core:saurug":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases kingdom's gem production by 1 per day for every 10 levels."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"updater" : {
+						"parameters" : [ 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		}
+	}
+}
