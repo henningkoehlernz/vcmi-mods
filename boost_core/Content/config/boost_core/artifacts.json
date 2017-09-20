@@ -1,0 +1,38 @@
+{
+	"core:birdOfPerception":
+	{
+		"text" : { "description" : "This figurine increases the hero's ranged damage by 5%." },
+		"bonuses" : [
+			{
+				"subtype" : "skill.archery",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 5
+			}
+		]
+	},
+	"core:stoicWatchman":
+	{
+		"text" : { "description" : "This figurine increases the hero's sight radius by 1." },
+		"bonuses" : [
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 1
+			}
+		]
+	},
+	"core:emblemOfCognizance":
+	{
+		"text" : { "description" : "This item increases the hero's sight radius by 1, and ranged damage by 5%." },
+		"bonuses" : [
+			{
+				"type" : "SIGHT_RADIOUS",
+				"val" : 1
+			},
+			{
+				"subtype" : "skill.archery",
+				"type" : "SECONDARY_SKILL_PREMY",
+				"val" : 5
+			}
+		]
+	}
+}

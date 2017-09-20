@@ -36,5 +36,8 @@
 		"config/boost_core/creatures/rampart.json",
 		"config/boost_core/creatures/stronghold.json",
 		"config/boost_core/creatures/tower.json"
+	],
+	"artifacts" : [
+		"config/boost_core/artifacts.json"
 	]
 }
