@@ -7,6 +7,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "psychicElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -43,6 +51,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "earthElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -79,6 +95,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "fireElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -115,6 +139,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "waterElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -151,6 +183,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "psychicElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -187,6 +227,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "earthElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -223,6 +271,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "fireElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -258,6 +314,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "waterElemental", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",

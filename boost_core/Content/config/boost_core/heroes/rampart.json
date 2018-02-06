@@ -7,10 +7,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "dwarf", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -46,10 +69,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "dendroidGuard", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -66,10 +112,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "woodElf", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -86,10 +155,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "unicorn", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -241,10 +333,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "pegasus", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"

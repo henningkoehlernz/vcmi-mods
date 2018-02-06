@@ -24,10 +24,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "griffin", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -63,7 +86,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters. Sharpshooters gain +5 health."
+				"description" : "Can upgrade Archers or Marksmen and Wood Elves or Grand Elves to Sharpshooters. Sharpshooters gain +10 health."
 			}
 		},
 		"specialty" : {
@@ -76,7 +99,7 @@
 						}
 					],
 					"type" : "STACK_HEALTH",
-					"val" : 5,
+					"val" : 10,
 					"valueType" : "BASE_NUMBER"
 				}
 			}
@@ -90,6 +113,14 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "blackKnight", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
 				"attack" : {
 					"subtype" : "primSkill.attack",
@@ -107,7 +138,7 @@
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				},
-				"damage" : {
+				"speed" : {
 					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
@@ -125,10 +156,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "griffin", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -145,10 +199,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ogre", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"

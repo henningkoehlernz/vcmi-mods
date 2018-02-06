@@ -7,10 +7,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "hellHound", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -23,14 +46,37 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Effreet and Effreet Sultans gain +6 attack, +4 defense and +1 speed for every 10 levels."
+				"description" : "Efreet and Efreet Sultans gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "efreet", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -47,10 +93,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "demon", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -67,10 +136,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "imp", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -106,10 +198,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "gog", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
@@ -126,9 +241,31 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "ballista", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 12 ] } },
-				"defence" : { "updater" : { "parameters" : [ 8 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
 					"subtype" : "skill.artillery",
 					"type" : "SECONDARY_SKILL_VAL2",
@@ -146,10 +283,33 @@
 			}
 		},
 		"specialty" : {
+			"base" : {
+				"limiters" : [
+					{
+						"parameters" : [ "pitFiend", true ],
+						"type" : "CREATURE_TYPE_LIMITER"
+					}
+				]
+			},
 			"bonuses" : {
-				"attack" : { "updater" : { "parameters" : [ 8 ] } },
-				"defence" : { "updater" : { "parameters" : [ 12 ] } },
+				"attack" : {
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 8 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 12 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"speed" : {
+					"type" : "STACKS_SPEED",
 					"updater" : {
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
