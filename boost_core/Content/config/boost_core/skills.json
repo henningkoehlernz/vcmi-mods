@@ -357,7 +357,7 @@
 			"effects" : {
 				"xtra" : {
 					"type" : "STACKS_SPEED",
-					"val" : 1,
+					"val" : 2,
 					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
