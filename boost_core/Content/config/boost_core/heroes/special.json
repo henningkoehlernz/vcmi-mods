@@ -20,14 +20,14 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Griffins and Royal Griffins gain +4 attack, +6 defense and +1 speed for every 10 levels."
+				"description" : "Swordsmen and crusaders gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
 		"specialty" : {
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "griffin", true ],
+						"parameters" : [ "swordsman", true ],
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
