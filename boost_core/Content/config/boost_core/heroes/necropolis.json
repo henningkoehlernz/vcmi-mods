@@ -6,7 +6,7 @@
 				"description" : "Walking Dead and Zombies gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Vampires and Vampire Lords gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -92,7 +92,7 @@
 				"description" : "Lichs and Power Lichs gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -135,7 +135,7 @@
 				"description" : "Wights and Wraiths gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -178,7 +178,7 @@
 				"description" : "Black Knights and Dread Knights gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -240,7 +240,7 @@
 				"description" : "Skeletons and Skeleton Warriors gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

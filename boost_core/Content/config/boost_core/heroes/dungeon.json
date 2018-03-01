@@ -6,7 +6,7 @@
 				"description" : "Harpies and Harpy Hags gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -91,7 +91,7 @@
 				"description" : "Minotaurs and Minotaur Kings gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -134,7 +134,7 @@
 				"description" : "Beholders and Evil Eyes gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -212,7 +212,7 @@
 				"description" : "Manticores and Scorpicores gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -255,7 +255,7 @@
 				"description" : "Troglodytes and Infernal Troglodytes gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

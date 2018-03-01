@@ -6,7 +6,7 @@
 				"description" : "Hellhounds and Cerberi gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Efreet and Efreet Sultans gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -92,7 +92,7 @@
 				"description" : "Demons and Horned Demons gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -135,7 +135,7 @@
 				"description" : "Imps and Familiars gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -197,7 +197,7 @@
 				"description" : "Gogs and Magogs gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -240,7 +240,7 @@
 				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -282,7 +282,7 @@
 				"description" : "Pit Fiends and Pit Lords gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

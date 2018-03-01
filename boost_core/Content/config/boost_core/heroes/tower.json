@@ -6,7 +6,7 @@
 				"description" : "Stone Gargoyles and Obsidian Gargoyles gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Genies and Master Genies gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -92,7 +92,7 @@
 				"description" : "Stone Golems and Iron Golems gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -135,7 +135,7 @@
 				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -177,7 +177,7 @@
 				"description" : "Nagas and Naga Queens gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -238,7 +238,7 @@
 				"description" : "Genies and Master Genies gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -359,7 +359,7 @@
 				"description" : "Mages and Arch Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

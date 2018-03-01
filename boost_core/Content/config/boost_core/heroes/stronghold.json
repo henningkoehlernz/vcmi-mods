@@ -6,7 +6,7 @@
 				"description" : "Cyclopses and Cyclops Kings gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -91,7 +91,7 @@
 				"description" : "Orcs and Orc Chieftains gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -134,7 +134,7 @@
 				"description" : "Rocs and Thunderbirds gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -177,7 +177,7 @@
 				"description" : "Goblins and Hobgoblins gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -220,7 +220,7 @@
 				"description" : "Ogres and Ogre Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -263,7 +263,7 @@
 				"description" : "Wolf Riders and Wolf Raiders gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -323,7 +323,7 @@
 				"description" : "Ogres and Ogre Mages gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

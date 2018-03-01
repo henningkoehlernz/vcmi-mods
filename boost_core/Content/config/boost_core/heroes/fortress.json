@@ -6,7 +6,7 @@
 				"description" : "Basilisks and Greater Basilisks gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -49,7 +49,7 @@
 				"description" : "Gnolls and Gnoll Marauders gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -92,7 +92,7 @@
 				"description" : "Lizardmen and Lizard Warriors gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -135,7 +135,7 @@
 				"description" : "Gorgons and Mighty Gorgons gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -178,7 +178,7 @@
 				"description" : "Serpent Flys and Dragon Flys gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -221,7 +221,7 @@
 				"description" : "Your ballista gains +6 attack and +4 defense for every 10 levels, and can shoot one additional time."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -263,7 +263,7 @@
 				"description" : "Wyverns and Wyvern Monarchs gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{

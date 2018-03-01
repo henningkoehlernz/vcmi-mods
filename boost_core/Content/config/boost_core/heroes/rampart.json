@@ -6,7 +6,7 @@
 				"description" : "Dwarfs and Battle Dwarfs gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -68,7 +68,7 @@
 				"description" : "Dendroid Guards and Dendroid Soldiers gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -111,7 +111,7 @@
 				"description" : "Wood Elves and Grand Elves gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -154,7 +154,7 @@
 				"description" : "Unicorns and War Unicorns gain +6 attack, +4 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
@@ -332,7 +332,7 @@
 				"description" : "Pegasi and Silver Pegasi gain +4 attack, +6 defense and +1 speed for every 10 levels."
 			}
 		},
-		"specialty" : {
+		"specialty#override" : {
 			"base" : {
 				"limiters" : [
 					{
