@@ -1,52 +1,52 @@
 {
 	"core:skeleton" :
 	{
-		"growth" : 40,
+		"growth" : 34,
 		"cost" : { "gold" : 19 }
 	},
 	"core:skeletonWarrior" :
 	{
-		"growth" : 40,
+		"growth" : 34,
 		"cost" : { "gold" : 22 }
 	},
 	"core:walkingDead" :
 	{
-		"growth" : 25,
+		"growth" : 21,
 		"cost" : { "gold" : 35 }
 	},
 	"core:zombieLord" :
 	{
-		"growth" : 25,
+		"growth" : 21,
 		"cost" : { "gold" : 45 }
 	},
 	"core:wight" :
 	{
-		"growth" : 15,
+		"growth" : 13,
 		"cost" : { "gold" : 80 }
 	},
 	"core:wraith" :
 	{
-		"growth" : 15,
+		"growth" : 13,
 		"cost" : { "gold" : 95 }
 	},
 	"core:vampire" :
 	{
-		"growth" : 5,
+		"growth" : 4,
 		"cost" : { "gold" : 200 }
 	},
 	"core:vampireLord" :
 	{
-		"growth" : 5,
+		"growth" : 4,
 		"cost" : { "gold" : 400 }
 	},
 	"core:lich" :
 	{
-		"growth" : 5,
+		"growth" : 4,
 		"cost" : { "gold" : 300 }
 	},
 	"core:powerLich" :
 	{
-		"growth" : 5,
+		"growth" : 4,
 		"cost" : { "gold" : 400 }
 	},
 	"core:blackKnight" :

@@ -1,32 +1,32 @@
 {
 	"core:centaur" :
 	{
-		"growth" : 25,
+		"growth" : 20,
 		"cost" : { "gold" : 30 }
 	},
 	"core:centaurCaptain" :
 	{
-		"growth" : 25,
+		"growth" : 20,
 		"cost" : { "gold" : 38 }
 	},
 	"core:dwarf" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 50 }
 	},
 	"core:battleDwarf" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 70 }
 	},
 	"core:woodElf" :
 	{
-		"growth" : 13,
+		"growth" : 11,
 		"cost" : { "gold" : 85 }
 	},
 	"core:grandElf" :
 	{
-		"growth" : 13,
+		"growth" : 11,
 		"cost" : { "gold" : 110 }
 	},
 	"core:pegasus" :

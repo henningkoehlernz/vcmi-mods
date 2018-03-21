@@ -39,5 +39,8 @@
 	],
 	"artifacts" : [
 		"config/boost_core/artifacts.json"
+	],
+	"factions" : [
+		"config/boost_core/factions/stronghold.json"
 	]
 }

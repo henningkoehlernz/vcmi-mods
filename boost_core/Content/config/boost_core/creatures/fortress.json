@@ -1,54 +1,54 @@
 {
 	"core:gnoll" :
 	{
-		"growth" : 40,
+		"growth" : 30,
 		"cost" : { "gold" : 21 }
 	},
 	"core:gnollMarauder" :
 	{
-		"growth" : 40,
+		"growth" : 30,
 		"cost" : { "gold" : 24 }
 	},
 	"core:lizardman" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 50 }
 	},
 	"core:lizardWarrior" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 70 }
-	},
-	"core:gorgon" :
-	{
-		"growth" : 4,
-		"cost" : { "gold" : 375 }
-	},
-	"core:mightyGorgon" :
-	{
-		"growth" : 4,
-		"cost" : { "gold" : 500 }
 	},
 	"core:serpentFly" :
 	{
-		"growth" : 11,
+		"growth" : 10,
 		"cost" : { "gold" : 105 }
 	},
 	"core:fireDragonFly" :
 	{
-		"growth" : 11,
+		"growth" : 10,
 		"cost" : { "gold" : 130 }
 	},
 	"core:basilisk" :
 	{
-		"growth" : 7,
+		"growth" : 6,
 		"cost" : { "gold" : 200 }
 	},
 	"core:greaterBasilisk" :
 	{
-		"growth" : 7,
+		"growth" : 6,
 		"cost" : { "gold" : 250 }
 	},
+    "core:gorgon" :
+    {
+        "growth" : 4,
+        "cost" : { "gold" : 375 }
+    },
+    "core:mightyGorgon" :
+    {
+        "growth" : 4,
+        "cost" : { "gold" : 500 }
+    },
 	"core:wyvern" :
 	{
 		"growth" : 3,

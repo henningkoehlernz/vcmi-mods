@@ -1,12 +1,12 @@
 {
 	"core:pixie" :
 	{
-		"growth" : 40,
+		"growth" : 30,
 		"cost" : { "gold" : 16 }
 	},
 	"core:sprite" :
 	{
-		"growth" : 40,
+		"growth" : 30,
 		"cost" : { "gold" : 28 }
 	},
 	"core:airElemental" :

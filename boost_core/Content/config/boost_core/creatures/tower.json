@@ -1,32 +1,32 @@
 {
 	"core:gremlin" :
 	{
-		"growth" : 50,
+		"growth" : 40,
 		"cost" : { "gold" : 13 }
 	},
 	"core:masterGremlin" :
 	{
-		"growth" : 50,
+		"growth" : 40,
 		"cost" : { "gold" : 19 }
 	},
 	"core:stoneGargoyle" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 55 }
 	},
 	"core:obsidianGargoyle" :
 	{
-		"growth" : 17,
+		"growth" : 14,
 		"cost" : { "gold" : 70 }
 	},
 	"core:ironGolem" :
 	{
-		"growth" : 10,
+		"growth" : 9,
 		"cost" : { "gold" : 90 }
 	},
 	"core:stoneGolem" :
 	{
-		"growth" : 10,
+		"growth" : 9,
 		"cost" : { "gold" : 135 }
 	},
 	"core:mage" :

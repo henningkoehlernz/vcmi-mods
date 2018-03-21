@@ -1,32 +1,32 @@
 {
 	"core:goblin" :
 	{
-		"growth" : 50,
+		"growth" : 38,
 		"cost" : { "gold" : 16 }
 	},
 	"core:hobgoblin" :
 	{
-		"growth" : 50,
+		"growth" : 38,
 		"cost" : { "gold" : 19 }
 	},
 	"core:goblinWolfRider" :
 	{
-		"growth" : 20,
+		"growth" : 18,
 		"cost" : { "gold" : 40 }
 	},
 	"core:hobgoblinWolfRider" :
 	{
-		"growth" : 20,
-		"cost" : { "gold" : 60 }
+		"growth" : 18,
+		"cost" : { "gold" : 55 }
 	},
 	"core:orc" :
 	{
-		"growth" : 17,
+		"growth" : 15,
 		"cost" : { "gold" : 65 }
 	},
 	"core:orcChieftain" :
 	{
-		"growth" : 17,
+		"growth" : 15,
 		"cost" : { "gold" : 80 }
 	},
 	"core:ogre" :

@@ -1,22 +1,22 @@
 {
 	"core:troglodyte" :
 	{
-		"growth" : 40,
+		"growth" : 35,
 		"cost" : { "gold" : 17 }
 	},
 	"core:infernalTroglodyte" :
 	{
-		"growth" : 40,
+		"growth" : 35,
 		"cost" : { "gold" : 20 }
 	},
 	"core:harpy" :
 	{
-		"growth" : 14,
+		"growth" : 12,
 		"cost" : { "gold" : 55 }
 	},
 	"core:harpyHag" :
 	{
-		"growth" : 14,
+		"growth" : 12,
 		"cost" : { "gold" : 85 }
 	},
 	"core:beholder" :

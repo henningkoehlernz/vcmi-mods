@@ -1,32 +1,32 @@
 {
 	"core:imp" :
 	{
-		"growth" : 50,
+		"growth" : 40,
 		"cost" : { "gold" : 14 }
 	},
 	"core:familiar" :
 	{
-		"growth" : 50,
+		"growth" : 40,
 		"cost" : { "gold" : 18 }
 	},
 	"core:gog" :
 	{
-		"growth" : 20,
+		"growth" : 16,
 		"cost" : { "gold" : 50 }
 	},
 	"core:magog" :
 	{
-		"growth" : 20,
+		"growth" : 16,
 		"cost" : { "gold" : 60 }
 	},
 	"core:hellHound" :
 	{
-		"growth" : 9,
+		"growth" : 8,
 		"cost" : { "gold" : 110 }
 	},
 	"core:cerberus" :
 	{
-		"growth" : 9,
+		"growth" : 8,
 		"cost" : { "gold" : 165 }
 	},
 	"core:demon" :

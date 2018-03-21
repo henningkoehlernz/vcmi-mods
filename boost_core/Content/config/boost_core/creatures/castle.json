@@ -1,22 +1,22 @@
 {
 	"core:pikeman" :
 	{
-		"growth" : 30,
+		"growth" : 24,
 		"cost" : { "gold" : 25 }
 	},
 	"core:halberdier" :
 	{
-		"growth" : 30,
+		"growth" : 24,
 		"cost" : { "gold" : 30 }
 	},
 	"core:archer" :
 	{
-		"growth" : 20,
+		"growth" : 18,
 		"cost" : { "gold" : 40 }
 	},
 	"core:marksman" :
 	{
-		"growth" : 20,
+		"growth" : 18,
 		"cost" : { "gold" : 55 }
 	},
 	"core:griffin" :
