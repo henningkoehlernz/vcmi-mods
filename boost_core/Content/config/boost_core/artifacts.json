@@ -34,5 +34,26 @@
 				"val" : 5
 			}
 		]
+	},
+	"core:cloakOfTheUndeadKing":
+	{
+		"text" : { "description" : "Raises an additional 30% of creatures killed.\nPowerful casualties produce more powerful undead.\nLevel 1: Skeleton\nLevel 2: Walking Dead\nLevel 3-4: Wight\nLevel 5+: Lich" },
+		"bonuses" : [
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.walkingDead",
+				"addInfo" : [0,2]
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.wight",
+				"addInfo" : [0,3]
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.lich",
+				"addInfo" : [0,5]
+			}
+		],
 	}
 }

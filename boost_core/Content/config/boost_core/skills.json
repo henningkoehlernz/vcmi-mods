@@ -269,41 +269,6 @@
 			}
 		}
 	},
-	"core:necromancy" : {
-		"base" : {
-			"effects" : {
-				"xtra" : {
-					"type" : "STACKS_SPEED",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [ "skeleton", true ]
-						}
-					]
-
-				}
-			}
-		},
-		"basic" : {
-			"description" : "{Basic Necromancy}\n\nReanimates 10% of enemy creatures killed, and increases the speed of skeletons by 1.",
-			"effects" : {
-				"xtra" : { "val" : 1 }
-			}
-		},
-		"advanced" : {
-			"description" : "{Advanced Necromancy}\n\nReanimates 20% of enemy creatures killed, and increases the speed of skeletons by 2.",
-			"effects" : {
-				"xtra" : { "val" : 2 }
-			}
-		},
-		"expert" : {
-			"description" : "{Expert Necromancy}\n\nReanimates 30% of enemy creatures killed, and increases the speed of skeletons by 3.",
-			"effects" : {
-				"xtra" : { "val" : 3 }
-			}
-		}
-	},
 	"core:scholar" : {
 		"base" : {
 			"effects" : {
