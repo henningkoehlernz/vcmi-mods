@@ -1,0 +1,49 @@
+{
+	"revenge" : {
+		"name" : "Revenge",
+		"gainChance" : {
+			"might" : 70,
+			"magic" : 30
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "ADDITIONAL_RETALIATION"
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/revengeSmallBasic.png",
+				"medium" : "skills/revengeMediumBasic.png",
+				"large" : "skills/revengeLargeBasic.png"
+			},
+			"description" : "{Basic Revenge}\n\nThe hero's troops can retaliate one additional time.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/revengeSmallAdvanced.png",
+				"medium" : "skills/revengeMediumAdvanced.png",
+				"large" : "skills/revengeLargeAdvanced.png"
+			},
+			"description" : "{Advanced Revenge}\n\nThe hero's troops can retaliate two additional times.",
+			"effects" : {
+				"main" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/revengeSmallExpert.png",
+				"medium" : "skills/revengeMediumExpert.png",
+				"large" : "skills/revengeLargeExpert.png"
+			},
+			"description" : "{Expert Revenge}\n\nThe hero's troops can retaliate an unlimited number of times.",
+			"effects" : {
+				"main" : { "type" : "UNLIMITED_RETALIATIONS" }
+			}
+		}
+	}
+}

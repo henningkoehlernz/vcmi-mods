@@ -1,3 +1,4 @@
+
 # Mods for VCMI
 
 See https://vcmi.eu/ for info on VCMI.
@@ -32,9 +33,9 @@ Updates core content for balance. Changes are as follows:
     - Eagle eye *instead* grants +2 sight and +40% ranged damage
     - First aid also increases health by 20% and improves tent durability
     - Intelligence now increases max mana by only 60%
-    - Leadership also adds +3 attack
+    - Leadership also grants +3 attack
     - Learning now grants +100% XP
-    - Luck also adds +3 defence
+    - Luck also grants +3 defence
     - Mysticism also increases max mana by 40%
     - Navigation also allows free ship-boarding
     - Pathfinding also grants 15% land movement bonus
@@ -46,5 +47,11 @@ Updates core content for balance. Changes are as follows:
 - Eagle eye artifacts *instead* grant bonuses to sight and ranged damage
 - Cloak of the Undead King now raises creatures based on casualty level
 
-### Spells
+#### Spells
 - Rebalances strength of resurrection and damage spells
+
+## new-skills
+
+Adds new secondary skills:
+
+- Revenge grants additional retaliations

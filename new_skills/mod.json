@@ -1,0 +1,12 @@
+{
+	"name" : "New Skills",
+	"description" : "Adds new secondary skills.",
+	"version" : "1.0",
+	"author" : "Henning Koehler",
+	"contact" : "henning.koehler.nz@gmail.com",
+	"modType" : "skills",
+
+	"skills" : [
+		"config/new_skills/skills.json"
+	]
+}
