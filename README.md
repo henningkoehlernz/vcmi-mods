@@ -1,4 +1,3 @@
-
 # Mods for VCMI
 
 See https://vcmi.eu/ for info on VCMI.
@@ -54,4 +53,5 @@ Updates core content for balance. Changes are as follows:
 
 Adds new secondary skills:
 
-- Revenge grants additional retaliations
+<img align="top" src="/new_skills/Content/Sprites/skills/revengeSmallExpert.png">
+Revenge grants additional retaliations
