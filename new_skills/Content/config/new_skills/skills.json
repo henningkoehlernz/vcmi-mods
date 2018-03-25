@@ -2,8 +2,8 @@
 	"revenge" : {
 		"name" : "Revenge",
 		"gainChance" : {
-			"might" : 70,
-			"magic" : 30
+			"might" : 7,
+			"magic" : 3
 		},
 		"base" : {
 			"effects" : {
