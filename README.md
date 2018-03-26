@@ -54,3 +54,4 @@ Updates core content for balance. Changes are as follows:
 Adds new secondary skills:
 
 <img align="top" src="/new_skills/Content/Sprites/skills/revengeSmallExpert.png"> Revenge grants additional retaliations
+<img align="top" src="/new_skills/Content/Sprites/skills/firebrandSmallExpert.png"> Firebrand grants fixed bonus to health and damage

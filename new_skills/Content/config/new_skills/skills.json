@@ -45,5 +45,56 @@
 				"main" : { "type" : "UNLIMITED_RETALIATIONS" }
 			}
 		}
+	},
+	"firebrand" : {
+		"name" : "Firebrand",
+		"gainChance" : 5,
+		"base" : {
+			"effects" : {
+				"health" : {
+					"type" : "STACK_HEALTH"
+				},
+				"damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/firebrandSmallBasic.png",
+				"medium" : "skills/firebrandMediumBasic.png",
+				"large" : "skills/firebrandLargeBasic.png"
+			},
+			"description" : "{Basic Firebrand}\n\nIncreases the health and maximum damage of troops under the hero's command by 1.",
+			"effects" : {
+				"health" : { "val" : 1 },
+				"damage" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/firebrandSmallAdvanced.png",
+				"medium" : "skills/firebrandMediumAdvanced.png",
+				"large" : "skills/firebrandLargeAdvanced.png"
+			},
+			"description" : "{Advanced Firebrand}\n\nIncreases the health and maximum damage of troops under the hero's command by 2.",
+			"effects" : {
+				"health" : { "val" : 2 },
+				"damage" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/firebrandSmallExpert.png",
+				"medium" : "skills/firebrandMediumExpert.png",
+				"large" : "skills/firebrandLargeExpert.png"
+			},
+			"description" : "{Expert Firebrand}\n\nIncreases the health and maximum damage of troops under the hero's command by 3.",
+			"effects" : {
+				"health" : { "val" : 3 },
+				"damage" : { "val" : 3 }
+			}
+		}
 	}
 }
