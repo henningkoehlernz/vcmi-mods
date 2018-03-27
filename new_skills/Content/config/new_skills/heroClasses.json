@@ -1,0 +1,20 @@
+{
+	"core:barbarian" :
+	{
+		"secondarySkills" : {
+			"new_skills:revenge" : 10
+		}
+	},
+	"core:demoniac" :
+	{
+		"secondarySkills" : {
+			"new_skills:firebrand" : 10
+		}
+	},
+	"core:heretic" :
+	{
+		"secondarySkills" : {
+			"new_skills:firebrand" : 10
+		}
+	}
+}

@@ -8,5 +8,8 @@
 
 	"skills" : [
 		"config/new_skills/skills.json"
+	],
+	"heroClasses" : [
+		"config/new_skills/heroClasses.json"
 	]
 }
