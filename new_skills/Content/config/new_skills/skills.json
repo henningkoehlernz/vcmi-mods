@@ -5,13 +5,6 @@
 			"might" : 7,
 			"magic" : 3
 		},
-		"base" : {
-			"effects" : {
-				"main" : {
-					"type" : "ADDITIONAL_RETALIATION"
-				}
-			}
-		},
 		"basic" : {
 			"images" : {
 				"small" : "skills/revengeSmallBasic.png",
@@ -20,7 +13,10 @@
 			},
 			"description" : "{Basic Revenge}\n\nThe hero's troops can retaliate one additional time.",
 			"effects" : {
-				"main" : { "val" : 1 }
+				"main" : {
+					"type" : "ADDITIONAL_RETALIATION",
+					"val" : 1
+				}
 			}
 		},
 		"advanced" : {
@@ -29,9 +25,9 @@
 				"medium" : "skills/revengeMediumAdvanced.png",
 				"large" : "skills/revengeLargeAdvanced.png"
 			},
-			"description" : "{Advanced Revenge}\n\nThe hero's troops can retaliate two additional times.",
+			"description" : "{Advanced Revenge}\n\nThe hero's troops can retaliate an unlimited number of times.",
 			"effects" : {
-				"main" : { "val" : 2 }
+				"main" : { "type" : "UNLIMITED_RETALIATIONS" }
 			}
 		},
 		"expert" : {
@@ -40,9 +36,10 @@
 				"medium" : "skills/revengeMediumExpert.png",
 				"large" : "skills/revengeLargeExpert.png"
 			},
-			"description" : "{Expert Revenge}\n\nThe hero's troops can retaliate an unlimited number of times.",
+			"description" : "{Expert Revenge}\n\nThe hero's troops can retaliate an unlimited number of times against both melee and ranged attacks.",
 			"effects" : {
-				"main" : { "type" : "UNLIMITED_RETALIATIONS" }
+				"main" : { "type" : "UNLIMITED_RETALIATIONS" },
+				"xtra" : { "type" : "RANGED_RETALIATION" }
 			}
 		}
 	},
