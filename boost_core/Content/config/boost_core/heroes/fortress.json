@@ -251,7 +251,7 @@
 					"subtype" : "skill.artillery",
 					"type" : "SECONDARY_SKILL_VAL2",
 					"val" : 1,
-					"limiters" : []
+					"limiters" : null
 				}
 			}
 		}

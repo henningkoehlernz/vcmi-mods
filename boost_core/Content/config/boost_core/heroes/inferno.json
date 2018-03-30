@@ -270,7 +270,7 @@
 					"subtype" : "skill.artillery",
 					"type" : "SECONDARY_SKILL_VAL2",
 					"val" : 1,
-					"limiters" : []
+					"limiters" : null
 				}
 			}
 		}
@@ -342,7 +342,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Recovers additional spell points each day equal to her level."
+				"description" : "Recovers additional spell points each day equal to his level."
 			}
 		},
 		"specialty" : {
