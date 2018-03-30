@@ -226,6 +226,13 @@
 					"type" : "STACK_HEALTH",
 					"subtype" : null,
 					"val" : 1,
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "SIEGE_WEAPON" ]
+						}
+					]
 				}
 			}
 		}

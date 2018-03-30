@@ -494,7 +494,14 @@
 				"xtra" : {
 					"type" : "STACK_HEALTH",
 					"val" : 10,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "SIEGE_WEAPON" ]
+						}
+					]
 				}
 			}
 		},
@@ -504,7 +511,14 @@
 				"xtra" : {
 					"type" : "STACK_HEALTH",
 					"val" : 20,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_BASE",
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [ "SIEGE_WEAPON" ]
+						}
+					]
 				}
 			}
 		}
