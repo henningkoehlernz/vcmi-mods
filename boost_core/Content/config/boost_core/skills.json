@@ -486,7 +486,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic First Aid}\n\nGrants manual control of the first aid, increases healing to 50 points, and increases tent durability.",
+			"description" : "{Basic First Aid}\n\nGrants manual control of the first aid tent, increases healing to 50 points, and increases tent durability.",
 		},
 		"advanced" : {
 			"description" : "{Advanced First Aid}\n\nFirst aid tent heals 75 points, and troops have 10% more health.",
