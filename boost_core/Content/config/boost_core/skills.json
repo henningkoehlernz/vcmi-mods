@@ -213,7 +213,7 @@
 	},
 	"core:ballistics" : {
 		"advanced" : {
-			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage and reduced damage taken from ranged attacks by 10%.",
+			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage, and reduces damage taken from ranged attacks by 10%.",
 				"xtra" : {
 					"subtype" : 1,
 					"type" : "GENERAL_DAMAGE_REDUCTION",
@@ -222,7 +222,7 @@
 				}
 		},
 		"expert" : {
-			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage and reduced damage taken from ranged attacks by 25%.",
+			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage, and reduces damage taken from ranged attacks by 25%.",
 			"effects" : {
 				"xtra" : {
 					"subtype" : 1,
