@@ -31,13 +31,12 @@ Updates core content for balance. Changes are as follows:
     - Ballistics also reduces ranged damage taken by 25%
     - Eagle eye *instead* grants +2 sight and +40% ranged damage
     - First aid also increases health by 20% and improves tent durability
-    - Intelligence now increases max mana by only 60%
     - Leadership also grants +3 attack
     - Learning now grants +100% XP
     - Luck also grants +3 defence
-    - Mysticism also increases max mana by 40%
+    - Mysticism also increases max mana by 60%
     - Navigation also allows free ship-boarding
-    - Pathfinding also grants 15% land movement bonus
+    - Pathfinding also grants 10% land movement bonus
     - Resistance now grants 40% magic resistance
     - Scholar *instead* grants +50% XP and +3 knowledge
     - Scouting also grants 15% land movement bonus
