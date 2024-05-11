@@ -3,9 +3,9 @@
 		"base" : {
 			"effects" : {
 				"xtra" : {
-					"subtype" : "skill.logistics",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "ADDITIVE_VALUE"
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		},
@@ -63,9 +63,9 @@
 		"base" : {
 			"effects" : {
 				"xtra" : {
-					"subtype" : "skill.logistics",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "ADDITIVE_VALUE"
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		},
@@ -91,11 +91,6 @@
 	"core:navigation" : {
 		"base" : {
 			"effects" : {
-				"main" : {
-					"subtype" : "skill.navigation",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "BASE_NUMBER"
-				},
 				"xtra" : {
 					"type" : "FREE_SHIP_BOARDING"
 				}
@@ -123,10 +118,6 @@
 	"core:leadership" : {
 		"base" : {
 			"effects" : {
-				"main" : {
-					"type" : "MORALE",
-					"valueType" : "BASE_NUMBER"
-				},
 				"xtra" : {
 					"subtype" : "primSkill.attack",
 					"type" : "PRIMARY_SKILL",
@@ -157,9 +148,8 @@
 		"base" : {
 			"effects" : {
 				"xtra" : {
-					"subtype" : "skill.intelligence",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "ADDITIVE_VALUE"
+					"type" : "MANA_PER_KNOWLEDGE",
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		},
@@ -243,9 +233,9 @@
 					"valueType" : "BASE_NUMBER"
 				},
 				"val2" : {
-					"subtype" : "skill.archery",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "ADDITIVE_VALUE"
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
@@ -275,9 +265,8 @@
 		"base" : {
 			"effects" : {
 				"main" : {
-					"subtype" : "skill.learning",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"valueType" : "ADDITIVE_VALUE"
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"xtra" : {
 					"subtype" : "primSkill.knowledge",
