@@ -343,9 +343,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"eagleEye" : {
-					"subtype" : "skill.archery",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
 					"val" : 2,
-					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {
 					"type" : "SIGHT_RADIOUS",

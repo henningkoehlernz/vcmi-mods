@@ -217,7 +217,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the health of all troops by 1% per level."
+				"description" : "Increases the health of all troops by 2% per level."
 			}
 		},
 		"specialty" : {
@@ -225,7 +225,9 @@
 				"firstAid" : {
 					"type" : "STACK_HEALTH",
 					"subtype" : null,
-					"val" : 1,
+					"targetSourceType" : null,
+					"val" : 2,
+					"valueType" : "PERCENT_TO_BASE",
 					"limiters" : [
 						"noneOf",
 						{
@@ -350,9 +352,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"eagleEye" : {
-					"subtype" : "skill.archery",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
 					"val" : 2,
-					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {
 					"type" : "SIGHT_RADIOUS",

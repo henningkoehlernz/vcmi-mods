@@ -4,9 +4,10 @@
 		"text" : { "description" : "This figurine increases the hero's ranged damage by 5%." },
 		"bonuses" : [
 			{
-				"subtype" : "skill.archery",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 5
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
 			}
 		]
 	},
@@ -29,9 +30,10 @@
 				"val" : 1
 			},
 			{
-				"subtype" : "skill.archery",
-				"type" : "SECONDARY_SKILL_PREMY",
-				"val" : 5
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
 			}
 		]
 	},

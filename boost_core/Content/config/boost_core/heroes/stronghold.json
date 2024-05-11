@@ -76,10 +76,9 @@
 					}
 				},
 				"speed" : {
-					"subtype" : "skill.artillery",
-					"type" : "SECONDARY_SKILL_VAL2",
-					"val" : 1,
-					"limiters" : null
+					"type" : "HERO_GRANTS_ATTACKS",
+					"valueType" : "BASE_NUMBER",
+					"val" : 1
 				}
 			}
 		}
@@ -368,10 +367,13 @@
 		},
 		"specialty" : {
 			"bonuses" : {
-				"logistics" : {
-					"val" : 1,
-					"valueType" : "ADDITIVE_VALUE"
-				}
+				"logistics#override" : {
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"valueType" : "PERCENT_TO_BASE",
+					"val" : 1
+                }
 			}
 		}
 	},
@@ -442,9 +444,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"eagleEye" : {
-					"subtype" : "skill.archery",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
 					"val" : 2,
-					"valueType" : "ADDITIVE_VALUE"
 				},
 				"eagleEye2" : {
 					"type" : "SIGHT_RADIOUS",

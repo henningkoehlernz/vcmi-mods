@@ -267,10 +267,9 @@
 					}
 				},
 				"speed" : {
-					"subtype" : "skill.artillery",
-					"type" : "SECONDARY_SKILL_VAL2",
-					"val" : 1,
-					"limiters" : null
+					"type" : "HERO_GRANTS_ATTACKS",
+					"valueType" : "BASE_NUMBER",
+					"val" : 1
 				}
 			}
 		}
@@ -348,8 +347,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"mysticism" : {
+					"type" : "MANA_REGENERATION",
+					"valueType" : "BASE_NUMBER",
 					"val" : 1,
-					"valueType" : "ADDITIVE_VALUE"
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}
