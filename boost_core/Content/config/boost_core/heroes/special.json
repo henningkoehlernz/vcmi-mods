@@ -3,7 +3,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Starts with expert fire magic, and fire spells deal 2% more damage per level of the hero."
+				"description" : "Starts with expert fire magic, and fire spells deal 3% more damage per level of the hero."
 			}
 		},
 		"specialty" : {
@@ -11,7 +11,7 @@
 				"fire" : {
 					"type" : "FIRE_SPELL_DMG_PREMY",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 2
+					"val" : 3
 				}
 			}
 		}
@@ -63,7 +63,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Can upgrade monks or zealots and magi or arch magi to enchanters. Enchanters gain +10 health."
+				"description" : "Can upgrade monks or zealots and magi or arch magi to enchanters. Enchanters gain +20 health."
 			}
 		},
 		"specialty" : {
@@ -76,7 +76,7 @@
 						}
 					],
 					"type" : "STACK_HEALTH",
-					"val" : 10,
+					"val" : 20,
 					"valueType" : "BASE_NUMBER"
 				}
 			}
