@@ -4,8 +4,8 @@
 		"levels" : {
 			"none" : { "power" : 10 },
 			"basic" : { "power" : 10 },
-			"advanced" : { "power" : 30 },
-			"expert" : { "power" : 50 }
+			"advanced" : { "power" : 50 },
+			"expert" : { "power" : 100 }
 		}
 	},
 	"core:iceBolt" : {
@@ -13,8 +13,8 @@
 		"levels" : {
 			"none" : { "power" : 20 },
 			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"advanced" : { "power" : 200 },
+			"expert" : { "power" : 400 }
 		}
 	},
 	"core:lightningBolt" : {
@@ -36,12 +36,12 @@
 		}
 	},
 	"core:chainLightning" : {
-		"power" : 25,
+		"power" : 30,
 		"levels" : {
-			"none" : { "power" : 20 },
-			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"none" : { "power" : 30 },
+			"basic" : { "power" : 30 },
+			"advanced" : { "power" : 150 },
+			"expert" : { "power" : 300 }
 		}
 	},
 	"core:frostRing" : {
@@ -49,26 +49,26 @@
 		"levels" : {
 			"none" : { "power" : 20 },
 			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"advanced" : { "power" : 200 },
+			"expert" : { "power" : 400 }
 		}
 	},
 	"core:fireball" : {
 		"power" : 25,
 		"levels" : {
-			"none" : { "power" : 20 },
-			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"none" : { "power" : 25 },
+			"basic" : { "power" : 25 },
+			"advanced" : { "power" : 250 },
+			"expert" : { "power" : 500 }
 		}
 	},
 	"core:inferno" : {
-		"power" : 20,
+		"power" : 25,
 		"levels" : {
-			"none" : { "power" : 20 },
-			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"none" : { "power" : 25 },
+			"basic" : { "power" : 25 },
+			"advanced" : { "power" : 250 },
+			"expert" : { "power" : 500 }
 		}
 	},
 	"core:meteorShower" : {
@@ -101,10 +101,10 @@
 	"core:armageddon" : {
 		"power" : 30,
 		"levels" : {
-			"none" : { "power" : 20 },
-			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"none" : { "power" : 30 },
+			"basic" : { "power" : 30 },
+			"advanced" : { "power" : 300 },
+			"expert" : { "power" : 600 }
 		}
 	}
 }

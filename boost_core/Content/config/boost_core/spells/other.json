@@ -14,7 +14,7 @@
 			"none" : { "power" : 20 },
 			"basic" : { "power" : 20 },
 			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 200 }
+			"expert" : { "power" : 300 }
 		}
 	},
 	"core:resurrection" : {
