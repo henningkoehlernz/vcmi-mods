@@ -9,9 +9,11 @@
 		"specialty" : {
 			"bonuses" : {
 				"fire" : {
-					"type" : "FIRE_SPELL_DMG_PREMY",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.fire",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"val" : 3,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}
