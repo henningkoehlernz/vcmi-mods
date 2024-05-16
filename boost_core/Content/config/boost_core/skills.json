@@ -205,25 +205,40 @@
 		}
 	},
 	"core:ballistics" : {
-		"advanced" : {
-			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage, and reduces damage taken from ranged attacks by 10%.",
+		"base" : {
 			"effects" : {
 				"xtra" : {
-					"subtype" : 1,
+					"subtype" : "damageTypeRanged",
 					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"val" : 10,
 					"valueType" : "ADDITIVE_VALUE"
+				},
+				"wall" : {
+					"limiters" : ["SHOOTER_ONLY"],
+					"type" : "NO_WALL_PENALTY"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Ballistics}\n\nAllows aimed shots with increased damage, eliminates wall penalties and reduces damage taken from ranged attacks by 10%.",
+			"effects" : {
+				"xtra" : {
+					"val" : 10
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage, eliminates wall penalties and reduces damage taken from ranged attacks by 15%.",
+			"effects" : {
+				"xtra" : {
+					"val" : 15
 				}
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage, and reduces damage taken from ranged attacks by 25%.",
+			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage, eliminates wall penalties and reduces damage taken from ranged attacks by 25%.",
 			"effects" : {
 				"xtra" : {
-					"subtype" : 1,
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"val" : 25,
-					"valueType" : "ADDITIVE_VALUE"
+					"val" : 25
 				}
 			}
 		}

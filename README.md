@@ -26,9 +26,9 @@ Updates core content for balance. Changes are as follows:
 #### Skills
 - Rebalances & reworks many secondary skills (bonuses at expert)
     - Archery now increases ranged damage by 60% and improves ammo cart durability
-    - Armorer now reduces damage by 20%
+    - Armorer now reduces damage taken by 25%
     - Artillery now grants 3 shots and improves ballista durability
-    - Ballistics also reduces ranged damage taken by 25%
+    - Ballistics also eliminates wall penalty and reduces ranged damage taken by 25%
     - Eagle eye *instead* grants +2 sight and +40% ranged damage
     - First aid also increases health by 20% and improves tent durability
     - Leadership also grants +3 attack
