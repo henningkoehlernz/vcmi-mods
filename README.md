@@ -34,7 +34,7 @@ Updates core content for balance. Changes are as follows:
     - Leadership also grants +3 attack
     - Learning now grants +100% XP
     - Luck also grants +3 defence
-    - Mysticism also increases max mana by 60%
+    - Mysticism increases mana regeneration by 9 and max mana by 60%
     - Navigation also allows free ship-boarding
     - Pathfinding also grants 10% land movement bonus
     - Resistance now grants 40% magic resistance

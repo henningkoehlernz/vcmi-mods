@@ -154,20 +154,23 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Mysticism}\n\nAllows your hero to regenerate an additional spell point per day, and increases maximum mana by 20%.",
+			"description" : "{Basic Mysticism}\n\nAllows your hero to regenerate an additional 3 spell point per day, and increases maximum mana by 20%.",
 			"effects" : {
+				"main" : { "val" : 3 },
 				"xtra" : { "val" : 20 }
 			}
 		},
 		"advanced" : {
-			"description" : "{Advances Mysticism}\n\nAllows your hero to regenerate an additional 2 spell points per day, and increases maximum mana by 40%.",
+			"description" : "{Advances Mysticism}\n\nAllows your hero to regenerate an additional 6 spell points per day, and increases maximum mana by 40%.",
 			"effects" : {
+				"main" : { "val" : 6 },
 				"xtra" : { "val" : 40 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Mysticism}\n\nAllows your hero to regenerate an additional 3 spell points per day, and increases maximum mana by 60%.",
+			"description" : "{Expert Mysticism}\n\nAllows your hero to regenerate an additional 9 spell points per day, and increases maximum mana by 60%.",
 			"effects" : {
+				"main" : { "val" : 9 },
 				"xtra" : { "val" : 60 }
 			}
 		}
