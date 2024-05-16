@@ -63,12 +63,12 @@
 		}
 	},
 	"core:inferno" : {
-		"power" : 25,
+		"power" : 20,
 		"levels" : {
-			"none" : { "power" : 25 },
-			"basic" : { "power" : 25 },
-			"advanced" : { "power" : 250 },
-			"expert" : { "power" : 500 }
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 200 },
+			"expert" : { "power" : 400 }
 		}
 	},
 	"core:meteorShower" : {

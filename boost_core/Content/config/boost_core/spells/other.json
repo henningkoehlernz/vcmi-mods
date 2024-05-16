@@ -1,11 +1,20 @@
 {
 	"core:landMine" : {
-		"power" : 30,
+		"power" : 40,
 		"levels" : {
-			"none" : { "power" : 30 },
-			"basic" : { "power" : 30 },
-			"advanced" : { "power" : 30 },
-			"expert" : { "power" : 30 }
+			"none" : { "power" : 40 },
+			"basic" : { "power" : 40 },
+			"advanced" : { "power" : 40 },
+			"expert" : { "power" : 40 }
+		}
+	},
+	"core:landMineTrigger" : {
+		"power" : 40,
+		"levels" : {
+			"none" : { "power" : 40 },
+			"basic" : { "power" : 40 },
+			"advanced" : { "power" : 40 },
+			"expert" : { "power" : 40 }
 		}
 	},
 	"core:fireWall" : {
@@ -13,8 +22,17 @@
 		"levels" : {
 			"none" : { "power" : 20 },
 			"basic" : { "power" : 20 },
-			"advanced" : { "power" : 100 },
-			"expert" : { "power" : 300 }
+			"advanced" : { "power" : 20 },
+			"expert" : { "power" : 200 }
+		}
+	},
+	"core:fireWallTrigger" : {
+		"power" : 20,
+		"levels" : {
+			"none" : { "power" : 20 },
+			"basic" : { "power" : 20 },
+			"advanced" : { "power" : 20 },
+			"expert" : { "power" : 200 }
 		}
 	},
 	"core:resurrection" : {
