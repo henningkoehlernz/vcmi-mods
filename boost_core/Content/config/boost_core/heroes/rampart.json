@@ -1,4 +1,23 @@
 {
+	"core:mephala":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Reduces physical damage taken by 1% per level."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
 	"core:ufretin":
 	{
 		"texts" : {
@@ -100,6 +119,33 @@
 						"parameters" : [ 2 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
+				}
+			}
+		}
+	},
+	"core:thorgrim":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases spell resistance by 1% per level and physical resistance by 0.5% per level."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				},
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"updater" : {
+						"parameters" : [ 10 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}

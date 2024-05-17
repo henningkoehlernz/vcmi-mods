@@ -210,7 +210,7 @@
 				"xtra" : {
 					"subtype" : "damageTypeRanged",
 					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"valueType" : "ADDITIVE_VALUE"
+					"valueType" : "BASE_NUMBER"
 				},
 				"wall" : {
 					"limiters" : ["SHOOTER_ONLY"],
@@ -227,18 +227,18 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage, eliminates wall penalties and reduces damage taken from ranged attacks by 15%.",
+			"description" : "{Advanced Ballistics}\n\nAllows two aimed shots with increased damage, eliminates wall penalties and reduces damage taken from ranged attacks by 20%.",
 			"effects" : {
 				"xtra" : {
-					"val" : 15
+					"val" : 20
 				}
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage, eliminates wall penalties and reduces damage taken from ranged attacks by 25%.",
+			"description" : "{Expert Ballistics}\n\nAllows two aimed shots with maximum damage, eliminates wall penalties and reduces damage taken from ranged attacks by 30%.",
 			"effects" : {
 				"xtra" : {
-					"val" : 25
+					"val" : 30
 				}
 			}
 		}
@@ -393,19 +393,31 @@
 		}
 	},
 	"core:armorer" : {
+		"base" : {
+			"effects" : {
+				"xtra" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeMelee",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
 		"basic" : {
-			"description" : "{Basic Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 5%.",
+			"description" : "{Basic Armorer}\n\nHero's troops take 10% less melee and 5% less ranged damage.",
+			"effects" : {
+				"xtra" : { "val" : 5 }
+			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 15%.",
+			"description" : "{Advanced Armorer}\n\nHero's troops take 20% less melee and 10% less ranged damage.",
 			"effects" : {
-				"main" : { "val" : 15 }
+				"xtra" : { "val" : 10 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Armorer}\n\nReduces all physical damage inflicted against the hero's troops by 25%.",
+			"description" : "{Expert Armorer}\n\nHero's troops take 30% less melee and 15% less ranged damage.",
 			"effects" : {
-				"main" : { "val" : 25 }
+				"xtra" : { "val" : 15 }
 			}
 		}
 	},
@@ -442,22 +454,34 @@
 		}
 	},
 	"core:resistance" : {
-		"basic" : {
-			"description" : "{Basic Resistance}\n\nEndows a hero's troops with 10% magic resistance.",
+		"base" : {
 			"effects" : {
-				"main" : { "val" : 10 }
+				"xtra" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Resistance}\n\nEndows a hero's troops with 10% magic resistance and 5% physical resistance.",
+			"effects" : {
+				"main" : { "val" : 10 },
+				"xtra" : { "val" : 5 }
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Resistance}\n\nEndows a hero's troops with 25% magic resistance.",
+			"description" : "{Advanced Resistance}\n\nEndows a hero's troops with 20% magic resistance and 10% physical resistance.",
 			"effects" : {
-				"main" : { "val" : 25 }
+				"main" : { "val" : 20 },
+				"xtra" : { "val" : 10 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Resistance}\n\nEndows a hero's troops with 40% magic resistance.",
+			"description" : "{Expert Resistance}\n\nEndows a hero's troops with 30% magic resistance and 15% physical resistance.",
 			"effects" : {
-				"main" : { "val" : 40 }
+				"main" : { "val" : 30 },
+				"xtra" : { "val" : 15 }
 			}
 		}
 	},

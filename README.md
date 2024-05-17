@@ -26,9 +26,9 @@ Updates core content for balance. Changes are as follows:
 #### Skills
 - Rebalances & reworks many secondary skills (bonuses at expert)
     - Archery now increases ranged damage by 60% and improves ammo cart durability
-    - Armorer now reduces damage taken by 25%
+    - Armorer now reduces melee/ranged damage taken by 30%/15%
     - Artillery now grants 3 shots and improves ballista durability
-    - Ballistics also eliminates wall penalty and reduces ranged damage taken by 25%
+    - Ballistics also eliminates wall penalty and reduces ranged damage taken by 30%
     - Eagle eye *instead* grants +2 sight and +40% ranged damage
     - First aid also increases health by 20% and improves tent durability
     - Leadership also grants +3 attack
@@ -37,7 +37,7 @@ Updates core content for balance. Changes are as follows:
     - Mysticism increases mana regeneration by 9 and max mana by 60%
     - Navigation also allows free ship-boarding
     - Pathfinding also grants 10% land movement bonus
-    - Resistance now grants 40% magic resistance
+    - Resistance now grants 30% magic resistance and 15% physical resistance
     - Scholar *instead* grants +50% XP and +3 knowledge
     - Scouting also grants 15% land movement bonus
     - Sorcery now increases spell damage by 30% and grants +3 power
@@ -47,6 +47,7 @@ Updates core content for balance. Changes are as follows:
 
 #### Spells
 - Rebalances strength of resurrection and damage spells
+- Fire and water magic skills have greater impact on spell damage
 
 ## new-skills
 

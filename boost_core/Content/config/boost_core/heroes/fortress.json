@@ -128,6 +128,25 @@
 			}
 		}
 	},
+	"core:tazar":
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Reduces physical damage taken by 1% per level."
+			}
+		},
+		"specialty#override" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	},
 	"core:alkin":
 	{
 		"texts" : {
