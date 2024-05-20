@@ -1,0 +1,12 @@
+{
+	"name" : "Logistics",
+	"description" : "Increases chance to gain logistics skill.",
+	"version" : "1.0",
+	"author" : "Henning Koehler",
+	"contact" : "henning.koehler.nz@gmail.com",
+	"modType" : "skills",
+
+	"heroClasses" : [
+		"config/logistics/heroClasses.json"
+	]
+}

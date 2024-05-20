@@ -1,0 +1,110 @@
+{
+    "core:knight" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 15
+        }
+    },
+    "core:cleric" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 14
+        }
+    },
+    "core:ranger" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 15
+        }
+    },
+    "core:druid" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 15
+        }
+    },
+    "core:alchemist" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 16
+        }
+    },
+    "core:wizard" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 12
+        }
+    },
+    "core:demoniac" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 20
+        }
+    },
+    "core:heretic" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 13
+        }
+    },
+    "core:deathknight" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 15
+        }
+    },
+    "core:necromancer" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 14
+        }
+    },
+    "core:overlord" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 18
+        }
+    },
+    "core:warlock" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 12
+        }
+    },
+    "core:barbarian" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 17
+        }
+    },
+    "core:battlemage" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 19
+        }
+    },
+    "core:beastmaster" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 18
+        }
+    },
+    "core:witch" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 13
+        }
+    },
+    "core:planeswalker" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 18
+        }
+    },
+    "core:elementalist" :
+    {
+        "secondarySkills" : {
+            "core:logistics" : 12
+        }
+    }
+}
