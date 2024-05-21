@@ -403,19 +403,19 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Armorer}\n\nHero's troops take 10% less melee and 5% less ranged damage.",
+			"description" : "{Basic Armorer}\n\nHero's troops take 5% less physical damage. Applied twice against melee attacks.",
 			"effects" : {
 				"xtra" : { "val" : 5 }
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Armorer}\n\nHero's troops take 20% less melee and 10% less ranged damage.",
+			"description" : "{Advanced Armorer}\n\nHero's troops take 10% less physical damage. Applied twice against melee attacks.",
 			"effects" : {
 				"xtra" : { "val" : 10 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Armorer}\n\nHero's troops take 30% less melee and 15% less ranged damage.",
+			"description" : "{Expert Armorer}\n\nHero's troops take 15% less physical damage. Applied twice against melee attacks.",
 			"effects" : {
 				"xtra" : { "val" : 15 }
 			}
@@ -456,6 +456,11 @@
 	"core:resistance" : {
 		"base" : {
 			"effects" : {
+				"sdam" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.any",
+					"valueType" : "BASE_NUMBER"
+				},
 				"xtra" : {
 					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"subtype" : "damageTypeAll",
@@ -464,23 +469,26 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Resistance}\n\nEndows a hero's troops with 10% magic resistance and 5% physical resistance.",
+			"description" : "{Basic Resistance}\n\nEndows a hero's troops with 5% resistance against magic and all damage.",
 			"effects" : {
-				"main" : { "val" : 10 },
+				"main" : { "val" : 5 },
+				"sdam" : { "val" : 5 },
 				"xtra" : { "val" : 5 }
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Resistance}\n\nEndows a hero's troops with 20% magic resistance and 10% physical resistance.",
+			"description" : "{Advanced Resistance}\n\nEndows a hero's troops with 10% resistance against magic and all damage.",
 			"effects" : {
-				"main" : { "val" : 20 },
+				"main" : { "val" : 10 },
+				"sdam" : { "val" : 10 },
 				"xtra" : { "val" : 10 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Resistance}\n\nEndows a hero's troops with 30% magic resistance and 15% physical resistance.",
+			"description" : "{Expert Resistance}\n\nEndows a hero's troops with 15% resistance against magic and all damage.",
 			"effects" : {
-				"main" : { "val" : 30 },
+				"main" : { "val" : 15 },
+				"sdam" : { "val" : 15 },
 				"xtra" : { "val" : 15 }
 			}
 		}

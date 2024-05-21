@@ -127,7 +127,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases spell resistance by 1% per level and physical resistance by 0.5% per level."
+				"description" : "Increases magic and spell resistance by 1% per level and physical resistance by 0.5% per level."
 			}
 		},
 		"specialty#override" : {
@@ -135,6 +135,16 @@
 				"resistance" : {
 					"type" : "MAGIC_RESISTANCE",
 					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				},
+				"spelldr" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.any",
+					"updater" : {
+						"parameters" : [ 20 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"
 				},
