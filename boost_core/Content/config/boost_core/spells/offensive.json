@@ -36,12 +36,12 @@
 		}
 	},
 	"core:chainLightning" : {
-		"power" : 30,
+		"power" : 35,
 		"levels" : {
-			"none" : { "power" : 30 },
-			"basic" : { "power" : 30 },
-			"advanced" : { "power" : 150 },
-			"expert" : { "power" : 300 }
+			"none" : { "power" : 35 },
+			"basic" : { "power" : 35 },
+			"advanced" : { "power" : 175 },
+			"expert" : { "power" : 350 }
 		}
 	},
 	"core:frostRing" : {
