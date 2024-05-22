@@ -354,7 +354,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts fire wall with increased effect, and gains +1 power every 4 levels."
+				"description" : "Casts fire wall with increased effect, and gains +1 power or knowledge every 3 levels."
 			}
 		},
 		"specialty" : {
@@ -363,7 +363,15 @@
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -374,16 +382,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts haste with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts haste with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -394,7 +410,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts magic arrow with increased effect, and gains +1 power every 4 levels."
+				"description" : "Casts magic arrow with increased effect, and gains +1 power or knowledge every 3 levels."
 			}
 		},
 		"specialty" : {
@@ -403,7 +419,15 @@
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -414,16 +438,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts stone skin with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts stone skin with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -434,16 +466,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts bloodlust with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts bloodlust with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -454,16 +494,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts disrupting ray with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts disrupting ray with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}

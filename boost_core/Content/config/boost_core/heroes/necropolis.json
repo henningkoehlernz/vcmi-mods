@@ -280,7 +280,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts death ripple with increased effect, and gains +1 power every 4 levels."
+				"description" : "Casts death ripple with increased effect, and gains +1 power or knowledge every 3 levels."
 			}
 		},
 		"specialty" : {
@@ -289,7 +289,15 @@
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -300,7 +308,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts meteor shower with increased effect, and gains +1 power every 4 levels."
+				"description" : "Casts meteor shower with increased effect, and gains +1 power or knowledge every 3 levels."
 			}
 		},
 		"specialty" : {
@@ -309,7 +317,15 @@
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -360,7 +376,7 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts animate dead with increased effect, and gains +1 power every 4 levels."
+				"description" : "Casts animate dead with increased effect, and gains +1 power or knowledge every 3 levels."
 			}
 		},
 		"specialty" : {
@@ -369,7 +385,15 @@
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"knowledge" : {
+					"subtype" : "primSkill.knowledge",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
@@ -380,16 +404,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts stone skin with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts stone skin with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
