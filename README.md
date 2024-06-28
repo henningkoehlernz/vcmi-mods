@@ -32,13 +32,13 @@ Updates core content for balance. Changes are as follows:
     - Eagle eye *instead* grants +2 sight and +40% ranged damage
     - First aid also increases health by 20% and improves tent durability
     - Leadership also grants +3 attack
-    - Learning now grants +100% XP
+    - Learning now grants +150% XP
     - Luck also grants +3 defence
     - Mysticism increases mana regeneration by 9 and max mana by 60%
     - Navigation also allows free ship-boarding
     - Pathfinding also grants 10% land movement bonus
     - Resistance now grants 30% magic resistance and 15% physical resistance
-    - Scholar *instead* grants +50% XP and +3 knowledge
+    - Scholar *instead* grants +75% XP and +3 knowledge
     - Scouting also grants 15% land movement bonus
     - Sorcery now increases spell damage by 30% and grants +3 power
     - Tactics also grants +2 speed
@@ -56,3 +56,7 @@ Adds new secondary skills:
 <img align="top" src="/new_skills/Content/Sprites/skills/revengeSmallExpert.png"> Revenge grants additional retaliations
 
 <img align="top" src="/new_skills/Content/Sprites/skills/firebrandSmallExpert.png"> Firebrand grants fixed bonus to health and damage
+
+## logistics
+
+Increases chance to gain logistics skill for all classes.

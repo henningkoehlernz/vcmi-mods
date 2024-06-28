@@ -294,23 +294,23 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Scholar}\n\nIncreases all XP gained by 10%, and knowledge by 1.",
+			"description" : "{Basic Scholar}\n\nIncreases all XP gained by 25%, and knowledge by 1.",
 			"effects" : {
-				"main" : { "val" : 10 },
+				"main" : { "val" : 25 },
 				"xtra" : { "val" : 1 }
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Scholar}\n\nIncreases all XP gained by 25%, and knowledge by 2.",
+			"description" : "{Advanced Scholar}\n\nIncreases all XP gained by 50%, and knowledge by 2.",
 			"effects" : {
-				"main" : { "val" : 25 },
+				"main" : { "val" : 50 },
 				"xtra" : { "val" : 2 }
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Scholar}\n\nIncreases all XP gained by 50%, and knowledge by 3.",
+			"description" : "{Expert Scholar}\n\nIncreases all XP gained by 75%, and knowledge by 3.",
 			"effects" : {
-				"main" : { "val" : 50 },
+				"main" : { "val" : 75 },
 				"xtra" : { "val" : 3 }
 			}
 		}
@@ -374,21 +374,21 @@
 	},
 	"core:learning" : {
 		"basic" : {
-			"description" : "{Basic Learning}\n\nIncreases a hero's earned experience by 25%.",
-			"effects" : {
-				"main" : { "val" : 25 }
-			}
-		},
-		"advanced" : {
-			"description" : "{Advanced Learning}\n\nIncreases a hero's earned experience by 50%.",
+			"description" : "{Basic Learning}\n\nIncreases a hero's earned experience by 50%.",
 			"effects" : {
 				"main" : { "val" : 50 }
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Learning}\n\nIncreases a hero's earned experience by 100%.",
+		"advanced" : {
+			"description" : "{Advanced Learning}\n\nIncreases a hero's earned experience by 100%.",
 			"effects" : {
 				"main" : { "val" : 100 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Learning}\n\nIncreases a hero's earned experience by 150%.",
+			"effects" : {
+				"main" : { "val" : 150 }
 			}
 		}
 	},
