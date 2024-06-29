@@ -297,16 +297,24 @@
 	{
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts cure with increased effect, and gains +1 knowledge every 4 levels."
+				"description" : "Casts cure with increased effect, and gains +1 knowledge or power every 3 levels."
 			}
 		},
 		"specialty" : {
 			"bonuses" : {
+				"power" : {
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 20, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
 				"knowledge" : {
 					"subtype" : "primSkill.knowledge",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
-						"parameters" : [ 5 ],
+						"parameters" : [ 10, 3 ],
 						"type" : "GROWS_WITH_LEVEL"
 					}
 				}
